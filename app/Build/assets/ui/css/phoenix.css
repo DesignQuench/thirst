@@ -3,6 +3,9 @@
  * Phoenix UI by Jake Medina is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.
 Based on a work at https://github.com/jakerm2002/Phoenix.
 */
+
+@import "bourbon/bourbon";
+
 html {
 @font-face {
     font-family: "Font";
@@ -36,7 +39,6 @@ body {
 }
 
 h1,
-h3,
 h4,
 h5,
 h6 {
@@ -70,7 +72,7 @@ margin-bottom: 25px;
 
 h3 {
 font-family: sans-serif;
-color: #9d9d9d;
+color: #34495e;
 }
 
 .arrow-down {
@@ -276,7 +278,7 @@ color: #9d9d9d;
 	background-color:#f39c12;
 }.btnw:active {
 	position:relative;
-	top:1px;
+	background-color:#f1c40f;
 }
 
 .code {
@@ -292,4 +294,8 @@ color: #9d9d9d;
   display: block;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
           box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.code-sample {
+ margin-left: 15px
 }

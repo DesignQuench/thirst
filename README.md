@@ -1,9 +1,9 @@
-Phoenix
-=======
-
-Empowering web design.
-
 ## What is Phoenix?
+Phoenix is a CSS framework. It is made to have simple code and a modern look, almost a flat look. No gloss allowed.
+Check out the Trello board here: https://trello.com/b/y0eEL7Ob/phoenix-ui
+
+##Join the Phoenix Team
+
 
 ## Installation
 Even though it's not done yet, you can still install the darn thing. Copy and paste this into Terminal, then hit Enter after it stops.

@@ -10,7 +10,7 @@ Even though it's not done yet, you can still install it. Copy and paste this int
 
 git clone https://github.com/jakerm2002/PhoenixUI
 
-mv PhoenixUI/app/assets/ui/ PhoenixUI/
+mv PhoenixUI/app/PhoenixUI/ PhoenixUI/
 
 cd PhoenixUI/
 

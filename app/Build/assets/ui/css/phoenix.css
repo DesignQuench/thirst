@@ -1,0 +1,295 @@
+/*
+ * Phoenix UI v1.0 (http://phoenixui.com)
+ * Phoenix UI by Jake Medina is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.
+Based on a work at https://github.com/jakerm2002/Phoenix.
+*/
+html {
+@font-face {
+    font-family: "Font";
+    src: "//fonts.googleapis.com/css?family=Lato:100italic,100,300italic,300,400italic,400,700italic,700,900italic,900"
+    -webkit-text-size-adjust: auto;
+      -ms-text-size-adjust: auto;
+}
+}
+
+html {
+@font-face {
+    font-family: "Maven Pro";
+    src: "//fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900"
+    -webkit-text-size-adjust: auto;
+      -ms-text-size-adjust: auto;
+}
+}
+    
+body {
+    font: auto 'Maven Pro', Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+#logo {
+    width: 15%;
+    display: block;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+h1,
+h3,
+h4,
+h5,
+h6 {
+font-family: "Lato";
+text-align: center;
+color: #34495e;
+}
+
+#title {
+font-size: 400%;
+margin-bottom: 0px;
+font-family: "Helvetica Neue";
+text-align: center;
+color: #34495e;
+}
+
+#tagline {
+font-family: "Helvetica Neue";
+text-align: center;
+color: #717171;
+margin-bottom: 45px;
+}
+
+.component-titles {
+font-family: "Helvetica Neue";
+text-align: left;
+color: #34495e;
+margin-left: 225px;
+margin-bottom: 25px;
+}
+
+h3 {
+font-family: sans-serif;
+color: #9d9d9d;
+}
+
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 20px solid #38A9F9;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.component {
+    margin-left: 225px;
+}
+
+/*.btnp {
+    background-color: #38A9F9;
+    border-radius:5px;
+    padding: 5px;
+    border: 1px solid #989696;
+}*/
+
+.btnp {
+	background-color:#38a8f9;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topright:5px;
+	border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-bottom-left-radius:5px;
+    -webkit-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+	text-indent:0;
+	border:1px solid #339de8;
+	display:inline-block;
+	color:#ffffff;
+	font-family:"Lato";
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:147px;
+	text-decoration:none;
+	text-align:center;
+    margin-left: auto;
+    margin-right: 25px;
+}.btnp:hover {
+	background-color:#378de5;
+}.btnp:active {
+	position:relative;
+	top:1px;
+}
+    
+.btns {
+	background-color:#2ecc71;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topright:5px;
+	border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-bottom-left-radius:5px;
+    -webkit-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+	text-indent:0;
+	border:1px solid #27ae60;
+	display:inline-block;
+	color:#ffffff;
+	font-family:"Lato";
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:147px;
+	text-decoration:none;
+	text-align:center;
+    margin-left: auto;
+    margin-right: 25px;
+}.btns:hover {
+	background-color:#27ae60;
+}.btns:active {
+	position:relative;
+	top:1px;
+}
+
+.btnd {
+	background-color:#e74c3c;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topright:5px;
+	border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-bottom-left-radius:5px;
+    -webkit-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+	text-indent:0;
+	border:1px solid #c0392b;
+	display:inline-block;
+	color:#ffffff;
+	font-family:"Lato";
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:147px;
+	text-decoration:none;
+	text-align:center;
+    margin-left: auto;
+    margin-right: 25px;
+}.btnd:hover {
+	background-color:#c0392b;
+}.btnd:active {
+	position:relative;
+	top:1px;
+}
+
+.btndis {
+	background-color:#95a5a6;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topright:5px;
+	border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-bottom-left-radius:5px;
+    -webkit-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+	text-indent:0;
+	border:1px solid #7f8c8d;
+	display:inline-block;
+	color:#e6e6e6;
+	font-family:"Lato";
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:147px;
+	text-decoration:none;
+	text-align:center;
+    margin-left: auto;
+    margin-right: 25px;
+}
+
+.btnw {
+	background-color:#f1c40f;
+	-webkit-border-top-left-radius:5px;
+	-moz-border-radius-topleft:5px;
+	border-top-left-radius:5px;
+	-webkit-border-top-right-radius:5px;
+	-moz-border-radius-topright:5px;
+	border-top-right-radius:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-moz-border-radius-bottomright:5px;
+	border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	-moz-border-radius-bottomleft:5px;
+	border-bottom-left-radius:5px;
+    -webkit-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+	text-indent:0;
+	border:1px solid #f39c12;
+	display:inline-block;
+	color:#ffffff;
+	font-family:"Lato";
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:147px;
+	text-decoration:none;
+	text-align:center;
+    margin-left: auto;
+    margin-right: 25px;
+}.btnw:hover {
+	background-color:#f39c12;
+}.btnw:active {
+	position:relative;
+	top:1px;
+}
+
+.code {
+  padding: 1px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-left: 225px;
+  width: 570px;
+  background-color: #303030;
+  color: #ffffff;
+  font-family: monospace;
+  border-radius: 5px;
+  display: block;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}

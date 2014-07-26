@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Phoenix - A CSS framework for the creative individual.</title>
+<!-- @reload -->
+<link href="//fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href='assets/ui/css/phoenix.css'
+</head>
+<body>
+<img id="logo" src="assets/img/phoenix-logo-full-cropped.png">
+<h1>Phoenix UI</h1>
+<h2>A CSS framework for the creative individual.</h2>
+<a class="btnp" href="#"><h3><i>scroll down</i></h3></button>
+<div class="arrow-down"></div>
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});    
+</script>
+</body>
+</html>

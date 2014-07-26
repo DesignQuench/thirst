@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Phoenix - A CSS framework for the creative individual.</title>
+<title>Phoenix - Empowering web design.</title>
 <!-- @reload -->
 <link href="//fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900" rel="stylesheet" type="text/css">
+<link href="//fonts.googleapis.com/css?family=Lato:100italic,100,300italic,300,400italic,400,700italic,700,900italic,900" rel="stylesheet" type="text/css">
+
 <link rel="stylesheet" type="text/css" href='assets/ui/css/phoenix.css'
 </head>
 <body>
 <img id="logo" src="assets/img/phoenix-logo-full-cropped.png">
-<h1>Phoenix UI</h1>
-<h2>A CSS framework for the creative individual.</h2>
-<a class="btnp" href="#"><h3><i>scroll down</i></h3></a>
-<div class="arrow-down"></div>
-<script>
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});    
-</script>
+<h1 id="title">Phoenix UI</h1>
+<h2 id="tagline">Empowering web design.</h2>
+<div style="text-align:center;">
+<a class="btnp smoothScroll" href="#buttons">scroll down</a>
+</div>
+<br><br><br><br><br><br><br>
+<div class="component-titles">
+<a name="buttons"></a>
+<h2>Buttons<h2>
+</div>
+<div class="component">
+<a class="btnp" href="#">Primary Button</a>
+<a class="btns" href="#">Success Button</a>
+<a class="btnw" href="#">Warning Button</a>
+<a class="btnd" href="#">Danger Button</a>
+<a class="btndis">Disabled Button</a>
+</div>
+<div class="code"><p>Hello this is code here</p></div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/ui/js/smoothscroll.js"></script>
 </body>
 </html>

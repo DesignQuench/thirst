@@ -5,7 +5,7 @@ Check out the Trello board here: https://trello.com/b/y0eEL7Ob/phoenix-ui
 ##Join the Phoenix Team
 
 
-## Installation
+## Installation: CSS only
 Even though it's not done yet, you can still install it. Copy and paste this into Terminal, then hit Enter after it stops.
 
 git clone https://github.com/jakerm2002/PhoenixUI

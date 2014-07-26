@@ -3,7 +3,7 @@ Phoenix is a CSS framework. It is made to have simple code and a modern look, al
 Check out the Trello board here: https://trello.com/b/y0eEL7Ob/phoenix-ui
 
 ##Join the Phoenix Team
-
+If you'd like to contribute, shoot me an email at jake.medina02@gmail.com.
 
 ## Installation: CSS only
 Even though it's not done yet, you can still install it. Copy and paste this into Terminal, then hit Enter after it stops.

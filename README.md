@@ -1,6 +1,6 @@
 Phoenix
 =======
 
-A CSS framework for the creative.
+Empowering web design.
 
 ## What is Phoenix?

@@ -99,6 +99,8 @@ color: #9d9d9d;
 	width:147px;
 	text-decoration:none;
 	text-align:center;
+    margin-left: auto;
+    margin-right: auto;
 }.btnp:hover {
 	background-color:#378de5;
 }.btnp:active {

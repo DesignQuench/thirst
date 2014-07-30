@@ -266,7 +266,7 @@ h3 {
 }
 
 .btnw {
-	background-color: #f1c40f;
+	background-color: #FFD823;
 	-webkit-border-top-left-radius: 5px;
 	-moz-border-radius-topleft: 5px;
 	border-top-left-radius: 5px;
@@ -297,7 +297,7 @@ h3 {
 }
 
 .btnw:hover {
-	background-color: #FFDE29;
+	background-color: #FFF23D;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-ms-transition: all 0.3s ease;
@@ -388,14 +388,8 @@ input.success {
 }
 
 input.warning {
-	border-radius: 5px;
 	border: 2px solid #f1c40f;
-	font-family: "Lato";
-	height: 25px;
 	color: #34495e;
-	padding: 8px 25px;
-	font-size: 15px;
-	padding-left: 10px;
 	-webkit-box-shadow: 0 2px 0 #f39c12;
 	box-shadow: 0 2px 0 #f39c12;
 }

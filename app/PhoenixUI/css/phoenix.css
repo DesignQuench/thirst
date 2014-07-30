@@ -120,9 +120,10 @@ color: #34495e;
 	font-size:15px;
 	font-weight:bold;
 	font-style:normal;
-	height:40px;
-	line-height:40px;
-	width:147px;
+	/*height:40px;*/
+	/*line-height:40px;*/
+	/*width:147px;*/
+	padding: 11px 21px 11px;
 	text-decoration:none;
 	text-align:center;
     margin-left: auto;
@@ -158,9 +159,7 @@ color: #34495e;
 	font-size:15px;
 	font-weight:bold;
 	font-style:normal;
-	height:40px;
-	line-height:40px;
-	width:147px;
+	padding: 11px 21px 11px;
 	text-decoration:none;
 	text-align:center;
     margin-left: auto;
@@ -196,9 +195,7 @@ color: #34495e;
 	font-size:15px;
 	font-weight:bold;
 	font-style:normal;
-	height:40px;
-	line-height:40px;
-	width:147px;
+	padding: 11px 21px 11px;
 	text-decoration:none;
 	text-align:center;
     margin-left: auto;
@@ -210,7 +207,7 @@ color: #34495e;
 	top:1px;
 }
 
-.btndis {
+.btn-dis {
 	background-color:#95a5a6;
 	-webkit-border-top-left-radius:5px;
 	-moz-border-radius-topleft:5px;
@@ -234,9 +231,7 @@ color: #34495e;
 	font-size:15px;
 	font-weight:bold;
 	font-style:normal;
-	height:40px;
-	line-height:40px;
-	width:147px;
+	padding: 11px 21px 11px;
 	text-decoration:none;
 	text-align:center;
     margin-left: auto;
@@ -267,9 +262,7 @@ color: #34495e;
 	font-size:15px;
 	font-weight:bold;
 	font-style:normal;
-	height:40px;
-	line-height:40px;
-	width:147px;
+	padding: 11px 21px 11px;
 	text-decoration:none;
 	text-align:center;
     margin-left: auto;
@@ -285,21 +278,13 @@ color: #34495e;
   padding: 1px;
   margin-top: 5px;
   margin-bottom: 20px;
-  margin-left: 225px;
   width: 570px;
   background-color: #303030;
   color: #ffffff;
   font-family: monospace;
   border-radius: 5px;
   display: block;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
-          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
 }
-
-input[type="checkbox"] {
-display:none;
-}
-
 .code-sample {
  margin-left: 15px
 }
@@ -307,4 +292,69 @@ display:none;
 #phui-vs {
 margin-left: 240px;
 font-family: "Helvetica Neue";
+}
+
+#toolTip {
+    position:relative;
+    font-family: "Lato";
+    padding: ;
+    color: #fff;
+}
+
+#toolTip p {
+    padding:10px;
+    background-color:#38a8f9;
+    -moz-border-radius:5px;-ie-border-radius:5px;-webkit-border-radius:5px;-o-border-radius:5px;border-radius:5px;
+    margin-left: 225px;
+    width: ;
+}
+
+input {
+	border-radius: 5px;
+	border: 2px solid #bdc3c7;
+	font-family: "Lato";
+	height: 25px;
+	color: #34495e;
+	padding: 8px 25px;
+	font-size: 15px;
+	padding-left: 10px	;
+}
+
+input:focus {
+	border: 2px solid #38a8f9;
+	outline-width: 0;
+	-webkit-transition: all 0.5s ease;
+	  -moz-transition: all 0.5s ease;
+	  -ms-transition: all 0.5s ease;
+	  -o-transition: all 0.5s ease;
+	  transition: all 0.5s ease;
+}
+
+progress[value] {
+	background: #38a8f9;
+	border-radius: 5px;
+	display: inline-block;
+}  
+progress::-webkit-progress-bar {  
+    background: #bdc3c7;
+    border-radius: 5px;
+    display: inline-block;
+}  
+progress::-webkit-progress-value {  
+    background: #38a8f9;
+    border-radius: 5px;
+    display: inline-block;
+}  
+progress::-moz-progress-bar {  
+    background: #bdc3c7;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+input[type='checkbox'] {
+	visibility: hidden;
+}
+
+.checkbox {
+	background: #38a8f9;
 }

@@ -1,68 +1,97 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Phoenix - Empowering web design.</title>
-<!-- @reload -->
-<link href="//fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900" rel="stylesheet" type="text/css">
-<link href="//fonts.googleapis.com/css?family=Lato:100italic,100,300italic,300,400italic,400,700italic,700,900italic,900" rel="stylesheet" type="text/css">
-
-<link rel="stylesheet" type="text/css" href='PhoenixUI/css/phoenix.css'
-</head>
-<body>
-<img id="logo" src="img/phoenix-logo-new.png">
-<h1 id="title">Phoenix UI</h1>
-<h2 id="tagline">Empowering web design.</h2>
-<div style="text-align:center;">
-<a class="btnp smoothScroll" href="#buttons">scroll down</a>
-</div>
-<br><br><br><br><br><br><br>
-<div class="component-titles">
-<a name="buttons"></a>
-<h2>Buttons<h2>
-</div>
-<div class="component">
-<a class="btnp" href="#">Primary Button</a>
-<a class="btns" href="#">Success Button</a>
-<a class="btnw" href="#">Warning Button</a>
-<a class="btnd" href="#">Danger Button</a>
-<a class="btndis">Disabled Button</a>
-</div>
-<div class="component-titles">
-<h3>Primary Button</h3>   
-<div class="well">
-<div class="code-sample">
-<p>&lt;a class="btnp" href="#">Primary Button&lt;/a&gt;</p>
-</div>
-</div>
-</div>
-<div class="component-titles">
-<h2>Checkboxes</h2>
-</div>
-<input type=checkbox class="checkbox">
-<div class="component-titles">
-<h2>Download on Mac: CSS Only</h2>
-<h3>Copy and paste into Terminal, then once executed, press Enter.</h3></div>
-<div class="well"><p>
-
-<div class="code-sample">git clone https://github.com/jakerm2002/PhoenixUI<br><br>
-
-mv PhoenixUI/app/PhoenixUI/ PhoenixUI/<br><br>
-
-cd PhoenixUI/<br><br>
-
-rm -R app<br><br>
-
-rm README.md<br><br>
-    
-c</div></p></div>
-<div class="component-titles">
-<h2>Or, hit the button below to download the whole thing.</h2>    
-</div>
-<div class="component">
-<a class="btnp" href="https://github.com/jakerm2002/PhoenixUI/archive/master.zip">Download Phoenix</a>
-</div>
-<p id="phui-vs">PhoenixUI v1.0</p>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-<script type="text/javascript" src="PhoenixUI/js/smoothscroll.js"></script>
-</body>
+  <head>
+    <title>Phoenix - Empowering web design.</title>
+    <!-- @reload -->
+    <link href="//fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Lato:100italic,100,300italic,300,400italic,400,700italic,700,900italic,900" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href='PhoenixUI/css/phoenix.css'
+  </head>
+  <body>
+    <img id="logo" src="img/phoenix-logo-new.png">
+    <h1 id="title">Phoenix UI</h1>
+    <h2 id="tagline">Empowering web design.</h2>
+    <div style="text-align:center;">
+      <a class="btnp smoothScroll" href="#buttons">scroll down</a>
+    </div>
+    <br><br><br><br><br><br><br>
+    <div class="component-titles">
+      <a name="buttons"></a>
+      <h2>
+      Buttons
+      <h2>
+    </div>
+    <div class="component">
+      <a class="btnp" href="#">Primary Button</a>
+      <a class="btns" href="#">Success Button</a>
+      <a class="btnw" href="#">Warning Button</a>
+      <a class="btnd" href="#">Danger Button</a>
+      <a class="btn-dis">Disabled Button</a>
+    </div>
+    <div class="component-titles">
+      <h3>Button Code</h3>
+    </div>
+    <div class="component">
+      <div class="well">
+        <div class="code-sample">
+          <p>&lt;a class="btnp" href="#">Primary Button&lt;/a&gt;</p>
+          <p>&lt;a class="btns" href="#">Success Button&lt;/a&gt</p>
+          <p>&lt;a class="btnw" href="#">Warning Button&lt;/a&gt</p>
+          <p>&lt;a class="btnd" href="#">Danger Button&lt;/a&gt</p>
+          <p>&lt;a class="btn-dis" href="#">Disabled Button&lt;/a&gt</p>
+        </div>
+      </div>
+    </div>
+    <div class="component-titles">
+      <h2>Checkboxes</h2>
+    </div>
+    <div class="component-titles">
+      <h2>Tooltips</h2>
+    </div>
+    <div class="tooltip">
+      <div id="toolTip">
+        <p>hello dere</p>
+      </div>
+    </div>
+    <div class="component-titles">
+      <h2>Input</h2>
+    </div>
+    <div class="component">
+      <input type="text" placeholder="Input Field"/>
+      <input type="text" placeholder="Disabled Input Field" disabled/>
+    </div>
+    <div class="component-titles">
+      <h2>Progress Bar</h2>
+    </div>
+    <div class="component">
+      <progress max="100" value="50"></progress>
+    </div>
+    <input type=checkbox class="checkbox">
+    <div class="component-titles">
+      <h2>Download on Mac: CSS Only</h2>
+      <h3>Copy and paste into Terminal, then once executed, press Enter.</h3>
+    </div>
+    <div class="component">
+      <div class="well">
+        <p>
+        <div class="code-sample">git clone https://github.com/jakerm2002/PhoenixUI<br><br>
+          mv PhoenixUI/app/PhoenixUI/ PhoenixUI/<br><br>
+          cd PhoenixUI/<br><br>
+          rm -R app<br><br>
+          rm README.md<br><br>
+          c
+        </div>
+        </p>
+      </div>
+    </div>
+    <div class="component-titles">
+      <h2>Or, hit the button below to download the whole thing.</h2>
+    </div>
+    <div class="component">
+      <a class="btnp" href="https://github.com/jakerm2002/PhoenixUI/archive/master.zip">Download Phoenix</a>
+    </div>
+    <p id="phui-vs">PhoenixUI v1.0</p>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="PhoenixUI/js/smoothscroll.js"></script>
+  </body>
 </html>

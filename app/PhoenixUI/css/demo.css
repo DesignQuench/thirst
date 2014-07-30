@@ -369,6 +369,8 @@ input {
 	font-size: 15px;
 	padding-left: 10px;
 	margin-bottom: 8px;
+	-webkit-box-shadow: 0 2px 0 #A4AAAE;
+	box-shadow: 0 2px 0 #A4AAAE;
 }
 
 input.error {
@@ -406,6 +408,8 @@ input:focus {
 	-ms-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
 	transition: all 0.5s ease;
+	-webkit-box-shadow: 0 2px 0 #3498db;
+	box-shadow: 0 2px 0 #3498db;
 }
 
 input.error:focus {

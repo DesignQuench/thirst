@@ -312,7 +312,7 @@ h3 {
 }
 
 .well {
-	padding: 1px;
+	padding: 10px;
 	margin-top: 5px;
 	margin-bottom: 20px;
 	background-color: #303030;
@@ -324,7 +324,7 @@ h3 {
 }
 
 .code-sample {
-	margin-left: 15px;
+	margin-left: 10px;
 }
 
 #phui-vs {
@@ -332,12 +332,12 @@ h3 {
 	font-family: "Helvetica Neue";
 }
 
-.toolTip {
+.tooltip {
 	position: relative;
 	font-family: "Lato";
     color: #fff;
     display: inline-block;
-    padding: 0px 10px;
+    padding: 5px 10px;
     background-color: #38a8f9;
     -moz-border-radius: 5px;
     -ie-border-radius: 5px;

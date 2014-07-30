@@ -120,9 +120,6 @@ h3 {
 	font-size: 15px;
 	font-weight: bold;
 	font-style: normal;
-	/*height:40px;*/
-	/*line-height:40px;*/
-	/*width:147px;*/
 	padding: 11px 21px 11px;
 	text-decoration: none;
 	text-align: center;
@@ -131,7 +128,6 @@ h3 {
 }
 
 .btnp:hover {
-	/*background-color: #378de5;*/
 	background-color: #52C2FF;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
@@ -178,7 +174,12 @@ h3 {
 }
 
 .btns:hover {
-	background-color: #27ae60;
+	background-color: #48E68B;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
 }
 
 .btns:active {
@@ -219,7 +220,12 @@ h3 {
 }
 
 .btnd:hover {
-	background-color: #c0392b;
+	background-color: #FF6656;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;	
 }
 
 .btnd:active {
@@ -291,7 +297,12 @@ h3 {
 }
 
 .btnw:hover {
-	background-color: #f39c12;
+	background-color: #FFDE29;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;	
 }
 
 .btnw:active {
@@ -321,14 +332,21 @@ h3 {
 	font-family: "Helvetica Neue";
 }
 
-#toolTip {
+.toolTip {
 	position: relative;
 	font-family: "Lato";
-	padding: ;
     color: #fff;
+    display: inline-block;
+    padding: 0px 10px;
+    background-color: #38a8f9;
+    -moz-border-radius: 5px;
+    -ie-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
 }
 
-#toolTip p {
+/*.toolTip p {
 	padding: 10px;
 	background-color: #38a8f9;
 	-moz-border-radius: 5px;
@@ -339,6 +357,7 @@ h3 {
 	margin-left: 225px;
 	width: ;
 }
+*/
 
 input {
 	border-radius: 5px;
@@ -353,27 +372,15 @@ input {
 }
 
 input.error {
-	border-radius: 5px;
 	border: 2px solid #e74c3c;
-	font-family: "Lato";
-	height: 25px;
 	color: #e74c3c;
-	padding: 8px 25px;
-	font-size: 15px;
-	padding-left: 10px;
 	-webkit-box-shadow: 0 2px 0 #c0392b;
 	box-shadow: 0 2px 0 #c0392b;
 }
 
 input.success {
-	border-radius: 5px;
 	border: 2px solid #2ecc71;
-	font-family: "Lato";
-	height: 25px;
 	color: #34495e;
-	padding: 8px 25px;
-	font-size: 15px;
-	padding-left: 10px;
 	-webkit-box-shadow: 0 2px 0 #27ae60;
 	box-shadow: 0 2px 0 #27ae60;
 }
@@ -411,8 +418,18 @@ input.error:focus {
 	transition: all 0.5s ease;
 }
 	
-input.error:focus {
-	border: 2px solid #FF6656;
+input.success:focus {
+	border: 2px solid #48E68B;
+	outline-width: 0;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+input.warning:focus {
+	border: 2px solid #FFDE29;
 	outline-width: 0;
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;

@@ -11,7 +11,7 @@ html {
     font-family: "Open Sans";
 	src: "//fonts.googleapis.com/css?family=Open Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800"	
     -webkit-text-size-adjust: auto;
-	-ms-text-size-adjust: auto;
+	-ms-text-size-adjust: auto;	
 }
 }
 
@@ -22,6 +22,17 @@ html {
     -webkit-text-size-adjust: auto;
 	-ms-text-size-adjust: auto;
 }
+}
+
+@font-face {
+	font-family: 'Flat-UI-Icons-24';
+	src:url('fonts/Flat-UI-Icons-24.eot');
+	src:url('fonts/Flat-UI-Icons-24.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Flat-UI-Icons-24.woff') format('woff'),
+		url('fonts/Flat-UI-Icons-24.ttf') format('truetype'),
+		url('fonts/Flat-UI-Icons-24.svg#Flat-UI-Icons-24') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 body {

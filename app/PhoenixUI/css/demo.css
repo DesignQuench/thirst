@@ -334,13 +334,17 @@ h3 {
 	font-family: "Open Sans";
     color: #fff;
     display: inline-block;
-    padding: 5px 10px;
+    padding: 10px 5px;
     background-color: #38a8f9;
     -moz-border-radius: 5px;
     -ie-border-radius: 5px;
     -webkit-border-radius: 5px;
     -o-border-radius: 5px;
     border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    word-wrap: break-word;
+    margin-bottom: 10px;
 }
 
 /*.toolTip p {

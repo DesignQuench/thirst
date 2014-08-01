@@ -27,9 +27,8 @@ html {
 body {
 	font-family: "Open Sans";
 	, Helvetica, Arial, sans-serif;
-	/*background-color: #ffffff;*/
+	background-color: #ffffff;
 	margin: 0px;
-	background-image: url(img/phoenix-background.png);
 }
 
 #logo {

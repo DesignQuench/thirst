@@ -27,8 +27,9 @@ html {
 body {
 	font-family: "Open Sans";
 	, Helvetica, Arial, sans-serif;
-	background-color: #ffffff;
+	/*background-color: #ffffff;*/
 	margin: 0px;
+	background-image: url(img/phoenix-background.png);
 }
 
 #logo {
@@ -38,6 +39,16 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+#text-logo {
+	width: 60%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	margin-bottom: 40px;
 }
 
 h1,
@@ -345,20 +356,9 @@ h3 {
     text-align: center;
     word-wrap: break-word;
     margin-bottom: 10px;
+    -webkit-box-shadow: 0 2px 0 #3498db;
+    box-shadow: 0 2px 0 #3498db;
 }
-
-/*.toolTip p {
-	padding: 10px;
-	background-color: #38a8f9;
-	-moz-border-radius: 5px;
-	-ie-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-o-border-radius: 5px;
-	border-radius: 5px;
-	margin-left: 225px;
-	width: ;
-}
-*/
 
 input {
 	border-radius: 5px;
@@ -520,4 +520,16 @@ input[type='checkbox'] {
 .github:hover {
 	text-decoration: underline;
 	color: #fff;
+}
+
+/*Custom Select Properties*/
+
+select{
+	background-color: #38a8f9;
+	border: 1px solid #38a8f9;
+	-webkit-appearance: none;
+	padding: 15px 100px 15px 15px;
+	font-family: "Open Sans";
+	color: #ffffff;
+	border-radius: 5px;
 }

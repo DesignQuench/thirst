@@ -272,7 +272,7 @@ h3 {
 	-moz-transition: all 0.3s ease;
 	-ms-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
-	transition: all 0.3s ease;	
+	transition: all 0.3s ease;
 }
 
 .btnd:active {
@@ -348,7 +348,7 @@ h3 {
 	-moz-transition: all 0.3s ease;
 	-ms-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
-	transition: all 0.3s ease;	
+	transition: all 0.3s ease;
 }
 
 .btnw:active {
@@ -381,21 +381,21 @@ h3 {
 .tooltip {
 	position: relative;
 	font-family: "Open Sans";
-    color: #fff;
-    display: inline-block;
-    padding: 10px 5px;
-    background-color: #38a8f9;
-    -moz-border-radius: 5px;
-    -ie-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -o-border-radius: 5px;
-    border-radius: 5px;
-    width: 200px;
-    text-align: center;
-    word-wrap: break-word;
-    margin-bottom: 10px;
-    -webkit-box-shadow: 0 2px 0 #3498db;
-    box-shadow: 0 2px 0 #3498db;
+	color: #fff;
+	display: inline-block;
+	padding: 10px 5px;
+	background-color: #38a8f9;
+	-moz-border-radius: 5px;
+	-ie-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	width: 200px;
+	text-align: center;
+	word-wrap: break-word;
+	margin-bottom: 10px;
+	-webkit-box-shadow: 0 2px 0 #3498db;
+	box-shadow: 0 2px 0 #3498db;
 }
 
 input {
@@ -456,7 +456,7 @@ input.error:focus {
 	-o-transition: all 0.5s ease;
 	transition: all 0.5s ease;
 }
-	
+
 input.success:focus {
 	border: 2px solid #48E68B;
 	outline-width: 0;
@@ -520,7 +520,7 @@ input[type='checkbox'] {
 #bottom-bar {
 	background-color: #666666;
 	display: block;
-	padding:  25px 100px;
+	padding: 25px 100px;
 	color: #fff;
 	margin-top: 20px;
 }

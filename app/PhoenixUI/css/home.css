@@ -546,3 +546,7 @@ input[type=submit] {
 .password-field {
 	margin-bottom: 0px;
 }
+
+.hero {
+	background-image: url();
+}

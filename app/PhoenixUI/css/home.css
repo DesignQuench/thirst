@@ -51,12 +51,14 @@ body {
 }
 
 h1,
+h3,
 h4,
 h5,
 h6 {
 	font-family: "Open Sans";
 	text-align: center;
-	color: #34495e;
+	color: #ffffff;
+	font-weight: 400;
 }
 
 #title {
@@ -80,11 +82,6 @@ h6 {
 	color: #34495e;
 	margin-left: 225px;
 	margin-bottom: 25px;
-}
-
-h3 {
-	font-family: sans-serif;
-	color: #34495e;
 }
 
 .arrow-down {
@@ -547,6 +544,8 @@ input[type=submit] {
 	margin-bottom: 0px;
 }
 
-.hero {
-	background-image: url();
+#whatisphoenix {
+	background-color: #38a8f9;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }

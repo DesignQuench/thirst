@@ -1,3 +1,11 @@
 Order deny,allow
 ErrorDocument 404 404.html
 DirectoryIndex index.html
+<IfModule mod_rewrite.c>
+   RewriteEngine On
+   RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /html/(.*).html\ HTTP/
+   RewriteRule .* http://localhost/html/%1 [R=301,L]
+
+   RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /html/(.*)\ HTTP/
+   RewriteRule .* %1.html [L]
+</IfModule>

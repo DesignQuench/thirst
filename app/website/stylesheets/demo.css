@@ -505,14 +505,6 @@ progress::-moz-progress-bar {
 	display: inline-block;
 }
 
-input[type='checkbox'] {
-	visibility: hidden;
-}
-
-.checkbox {
-	background: #38a8f9;
-}
-
 #input-well {
 	margin-left: 2px;
 }
@@ -585,3 +577,20 @@ input[type=submit] {
 .password-field {
 	margin-bottom: 0px;
 }
+
+input[type=checkbox {
+	visibility: hidden;
+}
+
+input[type=checkbox] + label span {
+	display: inline-block;
+	width: 46px;
+	height: 46px;
+	background: url(img/checkbox-unchecked);
+}
+
+input[type=checkbox]:checked + label span {
+	display: inline-block;
+	width: 46px;
+	height: 46px;
+	background: url(img/checkbox-checked);

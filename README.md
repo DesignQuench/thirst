@@ -5,6 +5,8 @@ Check out the Trello board here: https://trello.com/b/y0eEL7Ob/phoenix-ui
 ##Join the Phoenix Team
 If you'd like to contribute, shoot me an email at jake@phoenixui.tk, or join the official beta testers list here: http://eepurl.com/0eiyf
 
+You can also join the Gitter chat here: https://gitter.im/PhoenixUI/PhoenixUI
+
 ## Installation: CSS only
 Even though it's not done yet, you can still install it. Copy and paste this into Terminal, then hit Enter after it stops.
 

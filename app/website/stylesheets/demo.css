@@ -578,19 +578,16 @@ input[type=submit] {
 	margin-bottom: 0px;
 }
 
-input[type=checkbox {
-	visibility: hidden;
+input[type=checkbox] {
+	display: none;
 }
 
 input[type=checkbox] + label span {
 	display: inline-block;
 	width: 46px;
 	height: 46px;
-	background: url(img/checkbox-unchecked);
+	background: url(https://github.com/PhoenixUI/PhoenixUI/blob/master/app/img/checkbox-unchecked.png);
 }
 
 input[type=checkbox]:checked + label span {
-	display: inline-block;
-	width: 46px;
-	height: 46px;
-	background: url(img/checkbox-checked);
+	background: url(https://github.com/PhoenixUI/PhoenixUI/blob/master/app/img/checkbox-checked.png);

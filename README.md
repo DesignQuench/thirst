@@ -1,5 +1,5 @@
 ## What is Phoenix?
-Phoenix is a CSS framework. It is made to have simple code and a modern look, almost a flat look. No gloss allowed.
+Phoenix is a CSS framework. It is made to have simple code and a modern look, almost a flat look. No gloss allowed. TEST.
 Check out the Trello board here: https://trello.com/b/y0eEL7Ob/phoenix-ui
 
 ##Join the Phoenix Team

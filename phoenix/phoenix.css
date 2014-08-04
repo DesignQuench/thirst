@@ -13,71 +13,17 @@ body {
 	margin: 0px;
 }
 
-#logo {
-	width: 15%;
-	display: block;
-	display: table;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 45px;
-	margin-bottom: 30px;
-}
-
-#text-logo {
-	width: 60%;
-	height: auto;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	margin-bottom: 100px;
-	margin-top: 100px;
-}
-
 h1,
 h4,
 h5,
 h6 {
 	font-family: ""Open Sans"";
-	text-align: center;
 	color: #34495e;
-}
-
-#title {
-	font-size: 400%;
-	margin-bottom: 0px;
-	font-family: "Helvetica Neue";
-	text-align: center;
-	color: #34495e;
-}
-
-#tagline {
-	font-family: "Helvetica Neue";
-	text-align: center;
-	color: #717171;
-	margin-bottom: 45px;
-}
-
-.component-titles {
-	font-family: "Helvetica Neue";
-	text-align: left;
-	color: #34495e;
-	margin-left: 225px;
-	margin-bottom: 25px;
 }
 
 h3 {
 	font-family: sans-serif;
 	color: #34495e;
-}
-
-.arrow-down {
-	width: 0;
-	height: 0;
-	border-left: 15px solid transparent;
-	border-right: 15px solid transparent;
-	border-top: 20px solid #38A9F9;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .component {

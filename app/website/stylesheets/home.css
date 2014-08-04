@@ -1,14 +1,14 @@
 /*
  * Phoenix UI v1.0 (http://phoenixui.com)
  * Phoenix UI by Jake Medina is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.
-Based on a work at https://github.com/jakerm2002/Phoenix.
+Based on a work at https://github.com/PhoenixUI/PhoenixUI.
 */
 
 @import "bourbon/bourbon";
 
 html {
 	@font-face {
-    font-family: Open Sans;
+    font-family: '"Open Sans"';
 	src: url("//fonts.googleapis.com/css?family=Open Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800")
     -webkit-text-size-adjust: auto;
 	-ms-text-size-adjust: auto;
@@ -25,7 +25,7 @@ html {
 }
 
 body {
-	font-family: Open Sans;
+	font-family: "Open Sans";
 	, Helvetica, Arial, sans-serif;
 	background-color: #ffffff;
 	margin: 0px;
@@ -55,7 +55,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: Open Sans;
+	font-family: "Open Sans";
 	text-align: center;
 	color: #ffffff;
 	font-weight: 400;
@@ -124,7 +124,7 @@ h6 {
 	border: 1px solid #339de8;
 	display: inline-block;
 	color: #ffffff;
-	font-family: Open Sans;
+	font-family: "Open Sans";
 	font-size: 15px;
 	font-style: normal;
 	padding: 11px 21px 11px;
@@ -169,7 +169,7 @@ h6 {
 	border: 1px solid #27ae60;
 	display: inline-block;
 	color: #ffffff;
-	font-family: Open Sans;
+	font-family: "Open Sans";
 	font-size: 15px;
 	font-style: normal;
 	padding: 11px 21px 11px;
@@ -214,7 +214,7 @@ h6 {
 	border: 1px solid #c0392b;
 	display: inline-block;
 	color: #ffffff;
-	font-family: Open Sans;
+	font-family: "Open Sans";
 	font-size: 15px;
 	font-style: normal;
 	padding: 11px 21px 11px;
@@ -259,7 +259,7 @@ h6 {
 	border: 1px solid #7f8c8d;
 	display: inline-block;
 	color: #e6e6e6;
-	font-family: Open Sans;
+	font-family: "Open Sans";
 	font-size: 15px;
 	font-style: normal;
 	padding: 11px 21px 11px;
@@ -289,7 +289,7 @@ h6 {
 	border: 1px solid #D9B200;
 	display: inline-block;
 	color: #ffffff;
-	font-family: Open Sans;
+	font-family: "Open Sans";
 	font-size: 15px;
 	font-style: normal;
 	padding: 11px 21px 11px;
@@ -337,7 +337,7 @@ h6 {
 
 .tooltip {
 	position: relative;
-	font-family: Open Sans;
+	font-family: "Open Sans";
     color: #fff;
     display: inline-block;
     padding: 10px 5px;
@@ -358,7 +358,7 @@ h6 {
 input {
 	border-radius: 5px;
 	border: 2px solid #bdc3c7;
-	font-family: Open Sans;
+	font-family: "Open Sans";
 	height: 25px;
 	color: #34495e;
 	padding: 8px 25px;
@@ -525,7 +525,7 @@ select {
 	border: 1px solid #38a8f9;
 	-webkit-appearance: none;
 	padding: 15px 100px 15px 15px;
-	font-family: Open Sans;
+	font-family: "Open Sans";
 	color: #ffffff;
 	border-radius: 5px;
 }

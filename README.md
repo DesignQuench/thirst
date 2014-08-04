@@ -21,3 +21,5 @@ rm -R app
 rm README.md
 
 c
+
+[![Analytics](https://ga-beacon.appspot.com/UA-53505204-2/PhoenixUI/?pixel)](https://github.com/igrigorik/ga-beacon)

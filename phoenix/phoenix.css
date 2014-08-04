@@ -26,10 +26,6 @@ h3 {
 	color: #34495e;
 }
 
-.component {
-	margin-left: 225px;
-}
-
 .btn {
 	background-color: #bdc3c7;
 	-webkit-border-top-left-radius: 5px;
@@ -296,15 +292,7 @@ h3 {
 	border-radius: 5px;
 	display: inline-block;
 	padding-right: 17px;
-}
-
-.code-sample {
-	margin-left: 10px;
-}
-
-#phui-vs {
-	margin-left: 240px;
-	font-family: "Helvetica Neue";
+	padding-left: 20px;
 }
 
 .tooltip {
@@ -434,54 +422,6 @@ progress::-moz-progress-bar {
 	display: inline-block;
 }
 
-#input-well {
-	margin-left: 2px;
-}
-
-#bottom-bar {
-	background-color: #666666;
-	display: block;
-	padding: 25px 100px;
-	color: #fff;
-	margin-top: 20px;
-}
-
-.align-right {
-	float: right;
-}
-
-.email {
-	text-decoration: none;
-	color: #fff;
-}
-
-.email:hover {
-	text-decoration: underline;
-	color: #fff;
-}
-
-.twitter {
-	text-decoration: none;
-	color: #fff;
-	margin-left: 20px;
-}
-
-.twitter:hover {
-	text-decoration: underline;
-	color: #fff;
-}
-
-.github {
-	text-decoration: none;
-	color: #fff;
-	margin-left: 20px;
-}
-
-.github:hover {
-	text-decoration: underline;
-	color: #fff;
-}
-
 /*Custom Select Properties*/
 
 select {
@@ -497,14 +437,6 @@ select {
 input[type=submit] {
 	width: 60px;
 	height: 44px;
-}
-
-.password {
-	margin-top: 30px;
-}
-
-.password-field {
-	margin-bottom: 0px;
 }
 
 input[type=checkbox] {

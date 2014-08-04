@@ -6,24 +6,6 @@ Based on a work at https://github.com/PhoenixUI/PhoenixUI.
 
 @import "bourbon/bourbon";
 
-html {
-	@font-face {
-    font-family: '"Open Sans"';
-	src: url("//fonts.googleapis.com/css?family=Open Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800")
-    -webkit-text-size-adjust: auto;
-	-ms-text-size-adjust: auto;
-}
-}
-
-html {
-	@font-face {
-    font-family: "Maven Pro";
-	src: "//fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900"
-    -webkit-text-size-adjust: auto;
-	-ms-text-size-adjust: auto;
-}
-}
-
 body {
 	font-family: "Open Sans";
 	, Helvetica, Arial, sans-serif;
@@ -550,7 +532,7 @@ input[type=submit] {
 }
 
 #download {
-	background-color: #f2f5f5;
+	background-color: #fafafa;
 	display: block;
 	padding-top: 20px;
 	padding-bottom: 20px;

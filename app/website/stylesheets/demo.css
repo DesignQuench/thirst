@@ -8,8 +8,8 @@ Based on a work at https://github.com/jakerm2002/Phoenix.
 
 html {
 	@font-face {
-    font-family: "Open Sans";
-	src: "//fonts.googleapis.com/css?family=Open Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800"	
+    font-family: Open Sans;
+	src: url("//fonts.googleapis.com/css?family=Open Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800")
     -webkit-text-size-adjust: auto;
 	-ms-text-size-adjust: auto;
 }
@@ -25,7 +25,7 @@ html {
 }
 
 body {
-	font-family: "Open Sans";
+	font-family: Open Sans;
 	, Helvetica, Arial, sans-serif;
 	background-color: #ffffff;
 	margin: 0px;

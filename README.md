@@ -9,18 +9,9 @@ If you'd like to contribute, shoot me an email at jake@phoenixui.tk, or join the
 You can also join the Gitter chat here: https://gitter.im/PhoenixUI/PhoenixUI
 
 ## Installation: CSS only
-Even though it's not done yet, you can still install it. Copy and paste this into Terminal, then hit Enter after it stops.
+![Bower Package](http://img.shields.io/badge/bower%20install-phoenixui-2ecc71.svg?style=flat)
+Even though it's not done yet, you can still install it. Copy and paste this into Terminal. You must have Node, npm, and Git.
 
-git clone https://github.com/jakerm2002/PhoenixUI
-
-mv PhoenixUI/app/PhoenixUI/ PhoenixUI/
-
-cd PhoenixUI/
-
-rm -R app
-
-rm README.md
-
-c
+bower install pheonixui
 
 [![Analytics](https://ga-beacon.appspot.com/UA-53505204-2/PhoenixUI/?pixel)](https://github.com/igrigorik/ga-beacon)

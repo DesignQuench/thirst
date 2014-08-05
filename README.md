@@ -1,4 +1,6 @@
 ## What is Phoenix?
+[![Bower Package](http://img.shields.io/badge/bower-phoenixui-2ecc71.svg?style=flat)]
+
 Phoenix is a CSS framework. It is made to have simple code and a modern look, almost a flat look. No gloss allowed.
 Check out the Trello board here: https://trello.com/b/y0eEL7Ob/phoenix-ui
 

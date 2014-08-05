@@ -7,8 +7,7 @@ Based on a work at https://github.com/PhoenixUI/PhoenixUI.
 @import "bourbon/bourbon";
 
 body {
-	font-family: "Open Sans";
-	, Helvetica, Arial, sans-serif;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
 	background-color: #ffffff;
 	margin: 0px;
 }
@@ -333,14 +332,12 @@ h3 {
 
 .arrow-top:after {
 	border-color: rgba(56, 168, 249, 0);
-	border-bottom-color: #38a8f9;
 	border-width: 10px;
 	margin-left: -10px;
 }
 
 .arrow-top:before {
 	border-color: rgba(0, 0, 0, 0);
-	border-bottom-color: #;
 	border-width: 16px;
 	margin-left: -16px;
 }
@@ -363,13 +360,11 @@ h3 {
 
 .arrow-bottom:after {
 	border-color: rgba(56, 168, 249, 0);
-	border-top-color: #38a8f9;
 	border-width: 10px;
 	margin-left: -10px;
 }
 .arrow-bottom:before {
 	border-color: rgba(0, 0, 0, 0);
-	border-top-color: #;
 	border-width: 16px;
 	margin-left: -16px;
 }
@@ -392,13 +387,11 @@ h3 {
 
 .arrow-left:after {
 	border-color: rgba(56, 168, 249, 0);
-	border-right-color: #38a8f9;
 	border-width: 10px;
 	margin-top: -10px;
 }
 .arrow-left:before {
 	border-color: rgba(0, 0, 0, 0);
-	border-right-color: #;
 	border-width: 16px;
 	margin-top: -16px;
 }
@@ -421,13 +414,11 @@ h3 {
 
 .arrow-right:after {
 	border-color: rgba(56, 168, 249, 0);
-	border-left-color: #38a8f9;
 	border-width: 10px;
 	margin-top: -10px;
 }
 .arrow-right:before {
 	border-color: rgba(0, 0, 0, 0);
-	border-left-color: #;
 	border-width: 10px;
 	margin-top: -10px;
 }

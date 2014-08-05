@@ -1,5 +1,5 @@
 /*
- * Phoenix UI v1.0 (http://phoenixui.com)
+ * Phoenix UI v0.1.8 (http://phoenixui.com)
  * Phoenix UI by Jake Medina is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.
 Based on a work at https://github.com/PhoenixUI/PhoenixUI.
 */
@@ -313,6 +313,35 @@ h3 {
 	margin-bottom: 10px;
 	-webkit-box-shadow: 0 2px 0 #3498db;
 	box-shadow: 0 2px 0 #3498db;
+}
+
+.arrow {
+	margin-top: 10px;
+}
+
+.arrow:after, .arrow:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow:after {
+	border-color: rgba(56, 168, 249, 0);
+	border-bottom-color: #38a8f9;
+	border-width: 10px;
+	margin-left: -10px;
+}
+
+.arrow:before {
+	border-color: rgba(0, 0, 0, 0);
+	border-bottom-color: #;
+	border-width: 16px;
+	margin-left: -16px;
 }
 
 input {

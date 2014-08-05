@@ -10,7 +10,8 @@ You can also join the Gitter chat here: https://gitter.im/PhoenixUI/PhoenixUI
 
 ## Installation: CSS only
 ![Bower Package](http://img.shields.io/badge/bower%20install-phoenixui-2ecc71.svg?style=flat)
-Even though it's not done yet, you can still install it. Copy and paste this into Terminal. You must have Node, npm, and Git.
+
+Copy and paste this into Terminal. You must have Node, npm, and Git.
 
 bower install pheonixui
 

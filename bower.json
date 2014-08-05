@@ -1,0 +1,11 @@
+{
+  "name": "PhoenixUI",
+  "version": "1.0",
+  "homepage": "phoenixui.tk",
+  "authors": [
+    "Jake M. jake@phoenixui.tk"
+  ],
+  "description": "A modern, open-source, front-end CSS framework.",
+  "main": "~/Documents/Github/Phoenix",
+  "license": "Creative Commons Attribution-NoDerivatives 4.0 International License"
+}

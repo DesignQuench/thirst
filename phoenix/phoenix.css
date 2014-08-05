@@ -315,11 +315,11 @@ h3 {
 	box-shadow: 0 2px 0 #3498db;
 }
 
-.arrow {
+.arrow-top {
 	margin-top: 10px;
 }
 
-.arrow:after, .arrow:before {
+.arrow-top:after, .arrow:before {
 	bottom: 100%;
 	left: 50%;
 	border: solid transparent;
@@ -330,18 +330,105 @@ h3 {
 	pointer-events: none;
 }
 
-.arrow:after {
+.arrow-top:after {
 	border-color: rgba(56, 168, 249, 0);
 	border-bottom-color: #38a8f9;
 	border-width: 10px;
 	margin-left: -10px;
 }
 
-.arrow:before {
+.arrow-top:before {
 	border-color: rgba(0, 0, 0, 0);
 	border-bottom-color: #;
 	border-width: 16px;
 	margin-left: -16px;
+}
+
+.arrow-bottom {
+	position: relative;
+	background: #38a8f9;
+	border: 4px solid #;
+}
+.arrow-bottom:after, .arrow_box:before {
+	top: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow-bottom:after {
+	border-color: rgba(56, 168, 249, 0);
+	border-top-color: #38a8f9;
+	border-width: 30px;
+	margin-left: -30px;
+}
+.arrow-bottom:before {
+	border-color: rgba(0, 0, 0, 0);
+	border-top-color: #;
+	border-width: 36px;
+	margin-left: -36px;
+}
+
+.arrow-left {
+	position: relative;
+	background: #38a8f9;
+	border: 4px solid #;
+}
+.arrow-left:after, .arrow_box:before {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow-left:after {
+	border-color: rgba(56, 168, 249, 0);
+	border-right-color: #38a8f9;
+	border-width: 30px;
+	margin-top: -30px;
+}
+.arrow-left:before {
+	border-color: rgba(0, 0, 0, 0);
+	border-right-color: #;
+	border-width: 36px;
+	margin-top: -36px;
+}
+
+.arrow-right {
+	position: relative;
+	background: #38a8f9;
+	border: 4px solid #;
+}
+.arrow-right:after, .arrow_box:before {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow-right:after {
+	border-color: rgba(56, 168, 249, 0);
+	border-left-color: #38a8f9;
+	border-width: 30px;
+	margin-top: -30px;
+}
+.arrow-right:before {
+	border-color: rgba(0, 0, 0, 0);
+	border-left-color: #;
+	border-width: 36px;
+	margin-top: -36px;
 }
 
 input {

@@ -437,6 +437,34 @@ input {
 	box-shadow: 0 2px 0 #A4AAAE;
 }
 
+input.flat {
+	border-radius: 5px;
+	border: 2px solid #bdc3c7;
+	font-family: "Open Sans";
+	height: 25px;
+	color: #34495e;
+	padding: 8px 25px;
+	font-size: 15px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+input.nob {
+	border-radius: none;
+	border: none;
+	font-family: "Open Sans";
+	height: 25px;
+	color: #34495e;
+	padding: 8px 25px;
+	font-size: 15px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
 input.error {
 	border: 2px solid #e74c3c;
 	color: #e74c3c;
@@ -468,6 +496,30 @@ input:focus {
 	transition: all 0.5s ease;
 	-webkit-box-shadow: 0 2px 0 #3498db;
 	box-shadow: 0 2px 0 #3498db;
+}
+
+input.flat:focus {
+	border: 2px solid #38a8f9;
+	outline-width: 0;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+input.nob:focus {
+	border: 2px solid #38a8f9;
+	outline-width: 0;
+	-webkit-box-shadow: 0 2px #3498db;
+	box-shadow: 0 2px #3498db;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 
 input.error:focus {

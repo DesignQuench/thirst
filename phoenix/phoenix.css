@@ -16,7 +16,7 @@ h1,
 h4,
 h5,
 h6 {
-	font-family: ""Open Sans"";
+	font-family: "Open Sans";
 	color: #34495e;
 }
 
@@ -45,7 +45,7 @@ h3 {
 	border: 1px solid #A1A6A9;
 	display: inline-block;
 	color: #ffffff;
-	font-family: ""Open Sans"";
+	font-family: "Open Sans";
 	font-size: 15px;
 	font-style: normal;
 	padding: 11px 21px 11px;
@@ -90,7 +90,7 @@ h3 {
 	border: 1px solid #339de8;
 	display: inline-block;
 	color: #ffffff;
-	font-family: ""Open Sans"";
+	font-family: "Open Sans";
 	font-size: 15px;
 	font-style: normal;
 	padding: 11px 21px 11px;
@@ -135,7 +135,7 @@ h3 {
 	border: 1px solid #27ae60;
 	display: inline-block;
 	color: #ffffff;
-	font-family: ""Open Sans"";
+	font-family: "Open Sans";
 	font-size: 15px;
 	font-style: normal;
 	padding: 11px 21px 11px;
@@ -180,7 +180,7 @@ h3 {
 	border: 1px solid #c0392b;
 	display: inline-block;
 	color: #ffffff;
-	font-family: ""Open Sans"";
+	font-family: "Open Sans";
 	font-size: 15px;
 	font-style: normal;
 	padding: 11px 21px 11px;
@@ -225,7 +225,7 @@ h3 {
 	border: 1px solid #7f8c8d;
 	display: inline-block;
 	color: #e6e6e6;
-	font-family: ""Open Sans"";
+	font-family: "Open Sans";
 	font-size: 15px;
 	font-style: normal;
 	padding: 11px 21px 11px;
@@ -256,7 +256,7 @@ h3 {
 	border: 1px solid #D9B200;
 	display: inline-block;
 	color: #ffffff;
-	font-family: ""Open Sans"";
+	font-family: "Open Sans";
 	font-size: 15px;
 	font-style: normal;
 	padding: 11px 21px 11px;
@@ -296,7 +296,7 @@ h3 {
 
 .tooltip {
 	position: relative;
-	font-family: ""Open Sans"";
+	font-family: "Open Sans";
 	color: #fff;
 	display: inline-block;
 	padding: 10px 5px;
@@ -426,7 +426,7 @@ h3 {
 input {
 	border-radius: 5px;
 	border: 2px solid #bdc3c7;
-	font-family: ""Open Sans"";
+	font-family: "Open Sans";
 	height: 25px;
 	color: #34495e;
 	padding: 8px 25px;
@@ -537,7 +537,7 @@ select {
 	border: 1px solid #38a8f9;
 	-webkit-appearance: none;
 	padding: 15px 100px 15px 15px;
-	font-family: ""Open Sans"";
+	font-family: "Open Sans";
 	color: #ffffff;
 	border-radius: 5px;
 }

@@ -674,6 +674,11 @@ input[type=checkbox]:checked + label span {
 	padding: 5px;
 }
 
+nav.flat {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
 .nav:visited {
 	text-decoration: none;
 	color: #34495e;

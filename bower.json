@@ -1,11 +1,11 @@
 {
-  "name": "PhoenixUI",
+  "name": "Thirst",
   "version": "1.0",
-  "homepage": "phoenixui.tk",
+  "homepage": "thirstui.tk",
   "authors": [
-    "Jake M. jake@phoenixui.tk"
+    "Jake M. jake@thirstui.tk"
   ],
   "description": "A modern, open-source, front-end CSS framework.",
-  "main": "~/Documents/Github/Phoenix",
-  "license": "Creative Commons Attribution-NoDerivatives 4.0 International License"
+  "main": "~/Documents/GitHub/Thirst/",
+  "license": "Creative Commons Attribution-ShareAlike 4.0 International License."
 }

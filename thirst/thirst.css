@@ -1,10 +1,8 @@
 /*
- * Phoenix UI v0.1.8 (http://phoenixui.com)
- * Phoenix UI by Jake Medina is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.
-Based on a work at https://github.com/PhoenixUI/PhoenixUI.
+ * Thirst v1.1.8 (http://thirstui.tk)
+ * Thirst by Jake Medina is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+ Based on a work at http://github.com/ThirstUI/thirst.
 */
-
-@import "bourbon/bourbon";
 
 body {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;

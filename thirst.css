@@ -1,5 +1,5 @@
 /*
- * Thirst v1.3.0 (http://thirstui.tk)
+ * Thirst v1.3.1 (http://thirstui.tk)
  * Thirst by Jake Medina is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
  Based on a work at http://github.com/ThirstUI/thirst.
 */
@@ -37,8 +37,8 @@ h3 {
 	-webkit-border-bottom-left-radius: 5px;
 	-moz-border-radius-bottomleft: 5px;
 	border-bottom-left-radius: 5px;
-	-webkit-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
-	box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: inset 0 -2px 0 #A1A6A9;
+	box-shadow: inset 0 -2px 0 #A1A6A9;
 	text-indent: 0;
 	border: 1px solid #A1A6A9;
 	display: inline-block;
@@ -425,7 +425,7 @@ h3 {
 
 input {
 	border-radius: 5px;
-	border: 2px solid #bdc3c7;
+	border: 2px solid #38a8f9;
 	font-family: "Open Sans";
 	height: 25px;
 	color: #34495e;
@@ -433,20 +433,28 @@ input {
 	font-size: 15px;
 	padding-left: 10px;
 	margin-bottom: 10px;
-	-webkit-box-shadow: 0 2px 0 #A1A6A9;
-	box-shadow: 0 2px 0 #A1A6A9;
+	-webkit-box-shadow: 0 2px 0 #1F8FE0;
+	box-shadow: 0 2px 0 #1F8FE0;
 }
 
 input.flat {
 	border-radius: 5px;
-	border: 2px solid #bdc3c7;
-	color: #34495e;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
 
+input.flat-nob {
+	border: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+input.flat-nob:focus {
+  -webkit-box-shadow; none;
+	box-shadow: none;
+}
+
 input.error-flat {
-	border-radius: 5px;
 	border: 2px solid #e74c3c;
 	color: #e74c3c;
 	-webkit-box-shadow: none;
@@ -454,7 +462,6 @@ input.error-flat {
 }
 
 input.success-flat {
-	border-radius: 5px;
 	border: 2px solid #2ecc71;
 	color: #2ecc71;
 	-webkit-box-shadow: none;
@@ -462,8 +469,7 @@ input.success-flat {
 }
 
 input.warning-flat {
-	border-radius: 5px;
-	border: 2px solid #f1c40f;
+	border: 2px solid #FFD823;
 	color: #f1c40f;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -479,10 +485,6 @@ input.flat:disabled {
 	border-radius: none;
 	border: 2px solid #bdc3c7;
 	color: #34495e;
-	padding: 8px 25px;
-	font-size: 15px;
-	padding-left: 10px;
-	margin-bottom: 10px;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -491,10 +493,6 @@ input.nob:disabled {
 	border-radius: none;
 	border: none;
 	color: #34495e;
-	padding: 8px 25px;
-	font-size: 15px;
-	padding-left: 10px;
-	margin-bottom: 10px;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
@@ -565,20 +563,19 @@ input.error {
 input.success {
 	border: 2px solid #2ecc71;
 	color: #2ecc71;
-	-webkit-box-shadow: 0 2px 0 #27ae60;
-	box-shadow: 0 2px 0 #27ae60;
+	-webkit-box-shadow: 0 2px 0 #15B358;
+	box-shadow: 0 2px 0 #15B358;
 }
 
 input.warning {
-	border: 2px solid #f1c40f;
+	border: 2px solid #FFD823;
 	color: #f1c40f;
-	-webkit-box-shadow: 0 2px 0 #f39c12;
-	box-shadow: 0 2px 0 #f39c12;
+	-webkit-box-shadow: 0 2px 0 #E6BF0A;
+	box-shadow: 0 2px 0 #E6BF0A;
 }
 
 input:focus {
-	border: 2px solid #38a8f9;
-	outline-width: 0;
+	border: 2px solid #52C2FF;
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-ms-transition: all 0.5s ease;
@@ -589,103 +586,54 @@ input:focus {
 }
 
 input.flat:focus {
-	border: 2px solid #38a8f9;
-	outline-width: 0;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	transition: all 0.5s ease;
+	border: 2px solid #52C2FF;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
 
 input.nob:focus {
-	border: 2px solid #38a8f9;
-	outline-width: 0;
+	border: 2px solid #52C2FF;
 	-webkit-box-shadow: 0 2px #1F8FE0;
 	box-shadow: 0 2px #1F8FE0;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	transition: all 0.5s ease;
 }
 
 input.error-nob:focus {
-	border: 2px solid #FF6656;
-	outline-width: 0;
-	-webkit-box-shadow: 0 2px 0 #c0392b;
-	box-shadow: 0 2px 0 #c0392b;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	transition: all 0.5s ease;
+	border: 2px solid #e74c3c;
+	-webkit-box-shadow: 0 2px 0 #CE3323;
+	box-shadow: 0 2px 0 #CE3323;
 }
 
 input.success-nob:focus {
 	border: 2px solid #48E68B;
-	outline-width: 0;
-	-webkit-box-shadow: 0 2px 0 #27ae60;
-	box-shadow: 0 2px 0 #27ae60;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	transition: all 0.5s ease;
+	-webkit-box-shadow: 0 2px 0 #15B358;
+	box-shadow: 0 2px 0 #15B358;
 }
 
 input.warning-nob:focus {
-	border: 2px solid #FFDE29;
-	outline-width: 0;
-	-webkit-box-shadow: 0 2px 0 #f39c12;
-	box-shadow: 0 2px 0 #f39c12;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	transition: all 0.5s ease;
+	border: 2px solid #FFF23D;
+	-webkit-box-shadow: 0 2px 0 #E6BF0A;
+	box-shadow: 0 2px 0 #E6BF0A;
 }
 
 input.error:focus {
 	border: 2px solid #FF6656;
-	outline-width: 0;
-	-webkit-box-shadow: 0 2px 0 #c0392b;
-	box-shadow: 0 2px 0 #c0392b;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	transition: all 0.5s ease;
+	-webkit-box-shadow: 0 2px 0 #CE3323;
+	box-shadow: 0 2px 0 #CE3323;
 }
 
 input.success:focus {
 	border: 2px solid #48E68B;
-	outline-width: 0;
-	-webkit-box-shadow: 0 2px 0 #27ae60;
-	box-shadow: 0 2px 0 #27ae60;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	transition: all 0.5s ease;
+	-webkit-box-shadow: 0 2px 0 #15B358;
+	box-shadow: 0 2px 0 #15B358;
 }
 
 input.warning:focus {
-	border: 2px solid #FFDE29;
-	outline-width: 0;
-	-webkit-box-shadow: 0 2px 0 #f39c12;
-	box-shadow: 0 2px 0 #f39c12;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	transition: all 0.5s ease;
+	border: 2px solid #FFF23D;
+	-webkit-box-shadow: 0 2px 0 #E6BF0A;
+	box-shadow: 0 2px 0 #E6BF0A;
 }
 
 input.error-flat:focus {
-	border-radius: 5px;
 	border: 2px solid #FF6656;
 	color: #e74c3c;
 	-webkit-box-shadow: none;
@@ -693,7 +641,6 @@ input.error-flat:focus {
 }
 
 input.success-flat:focus {
-	border-radius: 5px;
 	border: 2px solid #48E68B;
 	color: #2ecc71;
 	-webkit-box-shadow: none;
@@ -701,8 +648,7 @@ input.success-flat:focus {
 }
 
 input.warning-flat:focus {
-	border-radius: 5px;
-	border: 2px solid #FFDE29;
+	border: 2px solid #FFF23D;
 	color: #f1c40f;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -726,7 +672,7 @@ input.success-flat-nob:focus {
 
 input.warning-flat-nob:focus {
 	border-radius: none;
-	border: 2px solid #FFDE29;
+	border: 2px solid #FFF23D;
 	color: #f1c40f;
 	-webkit-box-shadow: none;
 	box-shadow: none;

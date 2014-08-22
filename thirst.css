@@ -1,5 +1,5 @@
 /*
- * Thirst v1.2.4 (http://thirstui.tk)
+ * Thirst v1.2.9 (http://thirstui.tk)
  * Thirst by Jake Medina is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
  Based on a work at http://github.com/ThirstUI/thirst.
 */
@@ -85,7 +85,7 @@ h3 {
 	-webkit-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
 	box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
 	text-indent: 0;
-	border: 1px solid #339de8;
+	border: 1px solid rgba(0, 0, 0, 0.15);
 	display: inline-block;
 	color: #ffffff;
 	font-family: "Open Sans";
@@ -130,7 +130,7 @@ h3 {
 	-webkit-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
 	box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
 	text-indent: 0;
-	border: 1px solid #27ae60;
+	border: 1px solid rgba(0, 0, 0, 0.15);
 	display: inline-block;
 	color: #ffffff;
 	font-family: "Open Sans";
@@ -175,7 +175,7 @@ h3 {
 	-webkit-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
 	box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
 	text-indent: 0;
-	border: 1px solid #c0392b;
+	border: 1px solid rgba(0, 0, 0, 0.15);
 	display: inline-block;
 	color: #ffffff;
 	font-family: "Open Sans";
@@ -220,7 +220,7 @@ h3 {
 	-webkit-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
 	box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
 	text-indent: 0;
-	border: 1px solid #7f8c8d;
+	border: 1px solid rgba(0, 0, 0, 0.15);
 	display: inline-block;
 	color: #e6e6e6;
 	font-family: "Open Sans";
@@ -251,7 +251,7 @@ h3 {
 	-webkit-box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
 	box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15);
 	text-indent: 0;
-	border: 1px solid #D9B200;
+	border: 1px solid rgba(0, 0, 0, 0.15);
 	display: inline-block;
 	color: #ffffff;
 	font-family: "Open Sans";

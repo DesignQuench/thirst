@@ -1,5 +1,5 @@
 /*
- * Thirst v1.3.4 (http://thirstui.tk)
+ * Thirst v1.3.5 (http://thirstui.tk)
  * Thirst by Jake Medina is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
  Based on a work at http://github.com/ThirstUI/thirst.
 */
@@ -195,6 +195,10 @@ h3 {
 	-ms-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
+	-webkit-animation: blink 0.5s;
+	-webkit-animation-iteration-count: infinite;
+	animation: blinke 0.5s;
+	animation-iteration-count: infinite;
 }
 
 .btnd:active {
@@ -838,4 +842,45 @@ nav.flat {
 	-ms-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
+}
+
+.alert {
+	padding: 10px 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	display: inline-block;
+	width: 200px;
+	padding-right: 10px
+}
+
+.alert.p {
+	background-color: #38a8f9;
+}
+
+.alert.s {
+	background-color: #2ecc71;
+}
+
+.alert.w {
+	background-color: #FFD823;
+}
+
+.alert.e {
+	background-color: #e74c3c;
+	-webkit-animation: blink 0.5s;
+	-webkit-animation-iteration-count: infinite;
+	animation: blink 0.5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+    from {background-color: #e74c3c;}
+    to {background-color: #FF6656;}
+}
+
+@-webkit-keyframes blink {
+    from {background-color: #e74c3c;}
+    to {background-color: #FF6656;}
+    from {background-color: #FF6656;}
+    to {background-color: #e74c3c;}
 }

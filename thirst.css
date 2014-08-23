@@ -1,24 +1,24 @@
 /*
-	Thirst v1.3.7 (http://thirstui.tk)
+	Thirst v1.3.8 (http://thirstui.tk)
 	        .:/oosyyyyyyyyyyyyyy/                                                       -oo/.
-    `-+yyyyyyyyyyyyyyyyyyyyyys.                                                     `yyyy`
-  `/syyyys+:-.``yyyy``````+yyy/              ./oo:`                                 `yyyy`
- .syyyy+.      `yyyy`     +yyy/             `yyyyyy                                 `yyyy`
-`syyy+`        `yyyy`     +yyy/             `syyyys                                 `yyyy`
-oyyys          `yyyy`     +yyy/              `-/:-                             `:::::yyyy-...::::::/
-yyyy:          `yyyy`     +yyy/                     `-/:.                -//.  -yyyyyyyyyyyyyyyyyyys
-yyyy.          `yyyy`     +yyy/  `-:--`      ```   `syyyyo.`````       /yyyyy   .::::yyyy/:::::::::`
-syyy+          `yyyy`     /yyy/.osyyyys:    `syyo`  /syyyyyyyyyso.    .yyyyy/       `yyyy`
-:ssss:         `ssss`     /sssosss//ssss`    osss-   .ssssooossss/    `ossss.        ssss`
- /ssss/-       `ssss`     /sssss+`  ssss`    +sss-    sss+   +sso`    -ssssss:       ssss`
-  -oooo/       `oooo`     /oooo/    oooo`    +ooo-    ooo:  :ooo:    `+oo/:ooo+`     oooo`
-   `-:.        `oooo`     :ooo/     oooo`    +ooo-   -ooo. `oooo`    /oo+` `+ooo.    oooo`    ``
-               `oooo`     :ooo:     oooo`   .oooo-   /oo+  -ooo/    `ooo-   `+oo+`  `oooo`   .oo/
-               `oooo`     :ooo:     oooo`   +oooo-   +oo/  :ooo:   .+oo+     :ooo``.+oooo`   /oo/
-               `oooo`     :ooo:     oooo.  /ooooo- `/oo+   :ooo/  `ooooo/:..-oooo/ooooooo`  :oo+`
-               :oooo`     :ooo:     /ooo+/+oooooo+/+oo/`   -oooo+/+ooooooooooooooo+/-+ooo+/+oo+`
-             .:+ooo/      -ooo-      :+oooo/-`:+ooo+/.      ./oooo+/-:/+ooooo/-```   `:ooooo/-
-              -+oo+`        ``         ```      ```             ``      ````            ```
+	   `-+yyyyyyyyyyyyyyyyyyyyyys.                                                     `yyyy`
+	 `/syyyys+:-.``yyyy``````+yyy/              ./oo:`                                 `yyyy`
+	.syyyy+.      `yyyy`     +yyy/             `yyyyyy                                 `yyyy`
+	syyy+`        `yyyy`     +yyy/             `syyyys                                 `yyyy`
+	yyys          `yyyy`     +yyy/              `-/:-                             `:::::yyyy-...::::::/
+	yyy:          `yyyy`     +yyy/                     `-/:.                -//.  -yyyyyyyyyyyyyyyyyyys
+	yyy.          `yyyy`     +yyy/  `-:--`      ```   `syyyyo.`````       /yyyyy   .::::yyyy/:::::::::`
+	yyy+          `yyyy`     /yyy/.osyyyys:    `syyo`  /syyyyyyyyyso.    .yyyyy/       `yyyy`
+	ssss:         `ssss`     /sssosss//ssss`    osss-   .ssssooossss/    `ossss.        ssss`
+	/ssss/-       `ssss`     /sssss+`  ssss`    +sss-    sss+   +sso`    -ssssss:       ssss`
+	 -oooo/       `oooo`     /oooo/    oooo`    +ooo-    ooo:  :ooo:    `+oo/:ooo+`     oooo`
+	  `-:.        `oooo`     :ooo/     oooo`    +ooo-   -ooo. `oooo`    /oo+` `+ooo.    oooo`    ``
+	              `oooo`     :ooo:     oooo`   .oooo-   /oo+  -ooo/    `ooo-   `+oo+`  `oooo`   .oo/
+	              `oooo`     :ooo:     oooo`   +oooo-   +oo/  :ooo:   .+oo+     :ooo``.+oooo`   /oo/
+	              `oooo`     :ooo:     oooo.  /ooooo- `/oo+   :ooo/  `ooooo/:..-oooo/ooooooo`  :oo+`
+	              :oooo`     :ooo:     /ooo+/+oooooo+/+oo/`   -oooo+/+ooooooooooooooo+/-+ooo+/+oo+`
+	            .:+ooo/      -ooo-      :+oooo/-`:+ooo+/.      ./oooo+/-:/+ooooo/-```   `:ooooo/-
+	             -+oo+`        ``         ```      ```             ``      ````            ```
 	Thirst by Jake Medina is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
 	Based on a work at http://github.com/ThirstUI/thirst.
 */

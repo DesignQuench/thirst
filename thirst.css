@@ -1,6 +1,6 @@
 /*
 
-Thirst v1.4.1 (http://thirstui.tk)
+Thirst v1.4.2 (http://thirstui.tk)
 
         .:/oosyyyyyyyyyyyyyy/                                                       -oo/.
    `-+yyyyyyyyyyyyyyyyyyyyyys.                                                     `yyyy`
@@ -47,7 +47,6 @@ h3 {
 }
 
 .btn {
-	background-color: #bdc3c7;
 	-webkit-border-top-left-radius: 5px;
 	-moz-border-radius-topleft: 5px;
 	border-top-left-radius: 5px;
@@ -60,24 +59,21 @@ h3 {
 	-webkit-border-bottom-left-radius: 5px;
 	-moz-border-radius-bottomleft: 5px;
 	border-bottom-left-radius: 5px;
-	-webkit-box-shadow: inset 0 -2px 0 #A1A6A9;
-	box-shadow: inset 0 -2px 0 #A1A6A9;
 	text-indent: 0;
-	border: 1px solid #A1A6A9;
 	display: inline-block;
 	color: #ffffff;
-	font-family: "Open Sans";
+	font-family: ""Open Sans"";
 	font-size: 15px;
 	font-style: normal;
-	padding: 11px 21px;
+	padding: 11px 30px;
 	text-decoration: none;
 	text-align: center;
 	margin-left: auto;
 	margin-right: 25px;
+	margin-bottom: 20px
 }
 
 .btn:hover {
-	background-color: #D7DDE1;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
 	-ms-transition: all 0.3s ease;
@@ -85,88 +81,46 @@ h3 {
 	transition: all 0.3s ease;
 }
 
-.btn:active {
-	position: relative;
-	-webkit-box-shadow: inset 0 2px 0 #A1A6A9;
-	box-shadow: inset 0 2px 0 #A1A6A9;
+
+.btn.g {
+	background-color: #bdc3c7;
+	-webkit-box-shadow: inset 0 -2px 0 #A1A6A9;
+	box-shadow: inset 0 -2px 0 #A1A6A9;
 }
 
-.btnp {
+.btn.g:hover {
+	background-color: #D7DDE1;
+}
+
+.btn.g:active {
+	position: relative;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.btn.p {
 	background-color: #38a8f9;
-	-webkit-border-top-left-radius: 5px;
-	-moz-border-radius-topleft: 5px;
-	border-top-left-radius: 5px;
-	-webkit-border-top-right-radius: 5px;
-	-moz-border-radius-topright: 5px;
-	border-top-right-radius: 5px;
-	-webkit-border-bottom-right-radius: 5px;
-	-moz-border-radius-bottomright: 5px;
-	border-bottom-right-radius: 5px;
-	-webkit-border-bottom-left-radius: 5px;
-	-moz-border-radius-bottomleft: 5px;
-	border-bottom-left-radius: 5px;
 	-webkit-box-shadow: inset 0 -2px 0 #1F8FE0;
 	box-shadow: inset 0 -2px 0 #1F8FE0;
-	text-indent: 0;
-	border: 1px solid #1F8FE0;
-	display: inline-block;
-	color: #ffffff;
-	font-family: "Open Sans";
-	font-size: 15px;
-	font-style: normal;
-	padding: 11px 21px;
-	text-decoration: none;
-	text-align: center;
-	margin-left: auto;
-	margin-right: 25px;
 }
 
-.btnp:hover {
+.btn.p:hover {
 	background-color: #52C2FF;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-ms-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	transition: all 0.3s ease;
 }
 
-.btnp:active {
+.btn.p:active {
 	position: relative;
-	-webkit-box-shadow: inset 0 2px 0 #1F8FE0;
-	box-shadow: inset 0 2px 0 #1F8FE0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 
-.btns {
+.btn.s {
 	background-color: #2ecc71;
-	-webkit-border-top-left-radius: 5px;
-	-moz-border-radius-topleft: 5px;
-	border-top-left-radius: 5px;
-	-webkit-border-top-right-radius: 5px;
-	-moz-border-radius-topright: 5px;
-	border-top-right-radius: 5px;
-	-webkit-border-bottom-right-radius: 5px;
-	-moz-border-radius-bottomright: 5px;
-	border-bottom-right-radius: 5px;
-	-webkit-border-bottom-left-radius: 5px;
-	-moz-border-radius-bottomleft: 5px;
-	border-bottom-left-radius: 5px;
 	-webkit-box-shadow: inset 0 -2px 0 #15B358;
 	box-shadow: inset 0 -2px 0 #15B358;
-	text-indent: 0;
-	border: 1px solid #15B358;
-	display: inline-block;
-	color: #ffffff;
-	font-family: "Open Sans";
-	font-size: 15px;
-	font-style: normal;
-	padding: 11px 21px;
-	text-decoration: none;
-	text-align: center;
-	margin-left: auto;
-	margin-right: 25px;
 }
 
-.btns:hover {
+.btn.s:hover {
 	background-color: #48E68B;
 	-webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
@@ -175,133 +129,51 @@ h3 {
 	transition: all 0.3s ease;
 }
 
-.btns:active {
+.btn.s:active {
 	position: relative;
-	-webkit-box-shadow: inset 0 2px 0 #15B358;
-	box-shadow: inset 0 2px 0 #15B358;
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 
-.btnd {
+.btn.d {
 	background-color: #e74c3c;
-	-webkit-border-top-left-radius: 5px;
-	-moz-border-radius-topleft: 5px;
-	border-top-left-radius: 5px;
-	-webkit-border-top-right-radius: 5px;
-	-moz-border-radius-topright: 5px;
-	border-top-right-radius: 5px;
-	-webkit-border-bottom-right-radius: 5px;
-	-moz-border-radius-bottomright: 5px;
-	border-bottom-right-radius: 5px;
-	-webkit-border-bottom-left-radius: 5px;
-	-moz-border-radius-bottomleft: 5px;
-	border-bottom-left-radius: 5px;
 	-webkit-box-shadow: inset 0 -2px 0 #CE3323;
 	box-shadow: inset 0 -2px 0 #CE3323;
-	text-indent: 0;
-	border: 1px solid #CE3323;
-	display: inline-block;
-	color: #ffffff;
-	font-family: "Open Sans";
-	font-size: 15px;
-	font-style: normal;
-	padding: 11px 21px;
-	text-decoration: none;
-	text-align: center;
-	margin-left: auto;
-	margin-right: 25px;
 }
 
-.btnd:hover {
+.btn.d:hover {
 	background-color: #FF6656;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-ms-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	transition: all 0.3s ease;
 	-webkit-animation: blink 0.5s;
 	-webkit-animation-iteration-count: infinite;
-	animation: blinke 0.5s;
+	animation: blink 0.5s;
 	animation-iteration-count: infinite;
 }
 
-.btnd:active {
+.btn.d:active {
 	position: relative;
-	-webkit-box-shadow: inset 0 2px 0 #CE3323;
-	box-shadow: inset 0 2px 0 #CE3323;
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 
-.btn-dis {
+.btn.dis {
 	background-color: #95a5a6;
-	-webkit-border-top-left-radius: 5px;
-	-moz-border-radius-topleft: 5px;
-	border-top-left-radius: 5px;
-	-webkit-border-top-right-radius: 5px;
-	-moz-border-radius-topright: 5px;
-	border-top-right-radius: 5px;
-	-webkit-border-bottom-right-radius: 5px;
-	-moz-border-radius-bottomright: 5px;
-	border-bottom-right-radius: 5px;
-	-webkit-border-bottom-left-radius: 5px;
-	-moz-border-radius-bottomleft: 5px;
-	border-bottom-left-radius: 5px;
-	text-indent: 0;
-	border: 1px solid #6F7F80;
-	display: inline-block;
 	color: #e6e6e6;
-	font-family: "Open Sans";
-	font-size: 15px;
-	font-style: normal;
-	padding: 11px 21px;
-	text-decoration: none;
-	text-align: center;
-	margin-left: auto;
-	margin-right: 25px;
-	margin-top: 25px;
 }
 
-.btnw {
+.btn.w {
 	background-color: #FFD823;
-	-webkit-border-top-left-radius: 5px;
-	-moz-border-radius-topleft: 5px;
-	border-top-left-radius: 5px;
-	-webkit-border-top-right-radius: 5px;
-	-moz-border-radius-topright: 5px;
-	border-top-right-radius: 5px;
-	-webkit-border-bottom-right-radius: 5px;
-	-moz-border-radius-bottomright: 5px;
-	border-bottom-right-radius: 5px;
-	-webkit-border-bottom-left-radius: 5px;
-	-moz-border-radius-bottomleft: 5px;
-	border-bottom-left-radius: 5px;
 	-webkit-box-shadow: inset 0 -2px 0 #E6BF0A;
 	box-shadow: inset 0 -2px 0 #E6BF0A;
-	text-indent: 0;
-	border: 1px solid #E6BF0A;
-	display: inline-block;
-	color: #ffffff;
-	font-family: "Open Sans";
-	font-size: 15px;
-	font-style: normal;
-	padding: 11px 21px;
-	text-decoration: none;
-	text-align: center;
-	margin-left: auto;
-	margin-right: 25px;
 }
 
-.btnw:hover {
+.btn.w:hover {
 	background-color: #FFF23D;
-	-webkit-transition: all 0.3s ease;
-	-moz-transition: all 0.3s ease;
-	-ms-transition: all 0.3s ease;
-	-o-transition: all 0.3s ease;
-	transition: all 0.3s ease;
 }
 
-.btnw:active {
+.btn.w:active {
 	position: relative;
-	-webkit-box-shadow: inset 0 2px 0 #E6BF0A;
-	box-shadow: inset 0 2px 0 #E6BF0A;
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 
 .well {
@@ -890,10 +762,6 @@ nav.flat {
 
 .alert.e {
 	background-color: #e74c3c;
-	-webkit-animation: blink 0.5s;
-	-webkit-animation-iteration-count: infinite;
-	animation: blink 0.5s;
-	animation-iteration-count: infinite;
 }
 
 @keyframes blink {

@@ -1,6 +1,6 @@
 /*
 
-Thirst v1.4.2 (http://thirstui.tk)
+Thirst v1.4.3 (http://thirstui.tk)
 
         .:/oosyyyyyyyyyyyyyy/                                                       -oo/.
    `-+yyyyyyyyyyyyyyyyyyyyyys.                                                     `yyyy`
@@ -29,7 +29,6 @@ Based on a work at http://github.com/ThirstUI/thirst.
 
 body {
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
-	background-color: #ffffff;
 	margin: 0px;
 }
 
@@ -37,7 +36,6 @@ h1,
 h4,
 h5,
 h6 {
-	font-family: "Open Sans";
 	color: #34495e;
 }
 
@@ -47,22 +45,13 @@ h3 {
 }
 
 .btn {
-	-webkit-border-top-left-radius: 5px;
-	-moz-border-radius-topleft: 5px;
-	border-top-left-radius: 5px;
-	-webkit-border-top-right-radius: 5px;
-	-moz-border-radius-topright: 5px;
-	border-top-right-radius: 5px;
-	-webkit-border-bottom-right-radius: 5px;
-	-moz-border-radius-bottomright: 5px;
-	border-bottom-right-radius: 5px;
-	-webkit-border-bottom-left-radius: 5px;
-	-moz-border-radius-bottomleft: 5px;
-	border-bottom-left-radius: 5px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
 	text-indent: 0;
 	display: inline-block;
 	color: #ffffff;
-	font-family: ""Open Sans"";
+	font-family: "Open Sans";
 	font-size: 15px;
 	font-style: normal;
 	padding: 11px 30px;
@@ -70,7 +59,7 @@ h3 {
 	text-align: center;
 	margin-left: auto;
 	margin-right: 25px;
-	margin-bottom: 20px
+	margin-bottom: 20px;
 }
 
 .btn:hover {
@@ -84,8 +73,8 @@ h3 {
 
 .btn.g {
 	background-color: #bdc3c7;
-	-webkit-box-shadow: inset 0 -2px 0 #A1A6A9;
 	box-shadow: inset 0 -2px 0 #A1A6A9;
+	-webkit-box-shadow: inset 0 -2px 0 #A1A6A9;
 }
 
 .btn.g:hover {
@@ -94,14 +83,14 @@ h3 {
 
 .btn.g:active {
 	position: relative;
-	-webkit-box-shadow: none;
 	box-shadow: none;
+	-webkit-box-shadow: none;
 }
 
 .btn.p {
 	background-color: #38a8f9;
-	-webkit-box-shadow: inset 0 -2px 0 #1F8FE0;
 	box-shadow: inset 0 -2px 0 #1F8FE0;
+	-webkit-box-shadow: inset 0 -2px 0 #1F8FE0;
 }
 
 .btn.p:hover {
@@ -109,15 +98,14 @@ h3 {
 }
 
 .btn.p:active {
-	position: relative;
-	-webkit-box-shadow: none;
 	box-shadow: none;
+	-webkit-box-shadow: none;
 }
 
 .btn.s {
 	background-color: #2ecc71;
-	-webkit-box-shadow: inset 0 -2px 0 #15B358;
 	box-shadow: inset 0 -2px 0 #15B358;
+	-webkit-box-shadow: inset 0 -2px 0 #15B358;
 }
 
 .btn.s:hover {
@@ -130,15 +118,29 @@ h3 {
 }
 
 .btn.s:active {
-	position: relative;
-	-webkit-box-shadow: none;
 	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.btn.w {
+	background-color: #FFD823;
+	box-shadow: inset 0 -2px 0 #E6BF0A;
+	-webkit-box-shadow: inset 0 -2px 0 #E6BF0A;
+}
+
+.btn.w:hover {
+	background-color: #FFF23D;
+}
+
+.btn.w:active {
+	box-shadow: none;
+	-webkit-box-shadow: none;
 }
 
 .btn.d {
 	background-color: #e74c3c;
-	-webkit-box-shadow: inset 0 -2px 0 #CE3323;
 	box-shadow: inset 0 -2px 0 #CE3323;
+	-webkit-box-shadow: inset 0 -2px 0 #CE3323;
 }
 
 .btn.d:hover {
@@ -150,30 +152,13 @@ h3 {
 }
 
 .btn.d:active {
-	position: relative;
-	-webkit-box-shadow: none;
 	box-shadow: none;
+	-webkit-box-shadow: none;
 }
 
 .btn.dis {
 	background-color: #95a5a6;
 	color: #e6e6e6;
-}
-
-.btn.w {
-	background-color: #FFD823;
-	-webkit-box-shadow: inset 0 -2px 0 #E6BF0A;
-	box-shadow: inset 0 -2px 0 #E6BF0A;
-}
-
-.btn.w:hover {
-	background-color: #FFF23D;
-}
-
-.btn.w:active {
-	position: relative;
-	-webkit-box-shadow: none;
-	box-shadow: none;
 }
 
 .well {
@@ -223,7 +208,6 @@ h3 {
 	height: 0;
 	width: 0;
 	position: absolute;
-	pointer-events: none;
 }
 
 .top.tooltip:after {
@@ -253,7 +237,6 @@ h3 {
 	height: 0;
 	width: 0;
 	position: absolute;
-	pointer-events: none;
 }
 
 .bottom.tooltip:after {
@@ -283,7 +266,6 @@ h3 {
 	height: 0;
 	width: 0;
 	position: absolute;
-	pointer-events: none;
 }
 
 .left.tooltip:after {
@@ -313,7 +295,6 @@ h3 {
 	height: 0;
 	width: 0;
 	position: absolute;
-	pointer-events: none;
 }
 
 .right.tooltip:after {
@@ -356,7 +337,7 @@ input.flat-nob {
 }
 
 input.flat-nob:focus {
-	-webkit-box-shadow; none;
+	-webkit-box-shadow: none;
 	box-shadow: none;
 }
 
@@ -388,7 +369,6 @@ input.dis {
 }
 
 input.flat:disabled {
-	border-radius: none;
 	border: 2px solid #bdc3c7;
 	color: #34495e;
 	-webkit-box-shadow: none;
@@ -396,7 +376,6 @@ input.flat:disabled {
 }
 
 input.nob:disabled {
-	border-radius: none;
 	border: none;
 	color: #34495e;
 	-webkit-box-shadow: none;
@@ -404,7 +383,6 @@ input.nob:disabled {
 }
 
 input.nob {
-	border-radius: none;
 	border: none;
 	color: #34495e;
 	-webkit-box-shadow: none;
@@ -412,7 +390,6 @@ input.nob {
 }
 
 input.error-nob {
-	border-radius: none;
 	border: none;
 	color: #e74c3c;
 	-webkit-box-shadow: none;
@@ -420,7 +397,6 @@ input.error-nob {
 }
 
 input.success-nob {
-	border-radius: none;
 	border: none;
 	color: #2ecc71;
 	-webkit-box-shadow: none;
@@ -428,7 +404,6 @@ input.success-nob {
 }
 
 input.warning-nob {
-	border-radius: none;
 	border: 2px;
 	color: #f1c40f;
 	-webkit-box-shadow: none;
@@ -436,7 +411,6 @@ input.warning-nob {
 }
 
 input.error-flat-nob {
-	border-radius: none;
 	border: none;
 	color: #e74c3c;
 	-webkit-box-shadow: none;
@@ -444,7 +418,6 @@ input.error-flat-nob {
 }
 
 input.success-flat-nob {
-	border-radius: none;
 	border: none;
 	color: #2ecc71;
 	-webkit-box-shadow: none;
@@ -452,7 +425,6 @@ input.success-flat-nob {
 }
 
 input.warning-flat-nob {
-	border-radius: none;
 	border: none;
 	color: #f1c40f;
 	-webkit-box-shadow: none;
@@ -561,7 +533,6 @@ input.warning-flat:focus {
 }
 
 input.error-flat-nob:focus {
-	border-radius: none;
 	border: 2px solid #FF6656;
 	color: #e74c3c;
 	-webkit-box-shadow: none;
@@ -569,7 +540,6 @@ input.error-flat-nob:focus {
 }
 
 input.success-flat-nob:focus {
-	border-radius: none;
 	border: 2px solid #48E68B;
 	color: #2ecc71;
 	-webkit-box-shadow: none;
@@ -577,7 +547,6 @@ input.success-flat-nob:focus {
 }
 
 input.warning-flat-nob:focus {
-	border-radius: none;
 	border: 2px solid #FFF23D;
 	color: #f1c40f;
 	-webkit-box-shadow: none;
@@ -745,23 +714,77 @@ nav.flat {
 	margin-bottom: 10px;
 	display: inline-block;
 	width: 200px;
-	padding-right: 10px
+	padding-right: 10px;
 }
 
 .alert.p {
 	background-color: #38a8f9;
+	box-shadow: inset 0 -2px 0 #1F8FE0;
+	-webkit-box-shadow: inset 0 -2px 0 #1F8FE0;
 }
 
 .alert.s {
 	background-color: #2ecc71;
+	box-shadow: inset 0 -2px 0 #15B358;
+	-webkit-box-shadow: inset 0 -2px 0 #15B358;
 }
 
 .alert.w {
 	background-color: #FFD823;
+	box-shadow: inset 0 -2px 0 #E6BF0A;
+	-webkit-box-shadow: inset 0 -2px 0 #E6BF0A;
 }
 
 .alert.e {
 	background-color: #e74c3c;
+	box-shadow: inset 0 -2px 0 #CE3323;
+	-webkit-box-shadow: inset 0 -2px 0 #CE3323;
+}
+
+.alert.flat {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.notification {
+    border-radius: 5px;
+    display: inline-block;
+    padding: 15px 80px 15px 10px;
+    margin-bottom: 10px;
+    width: 100px;
+}
+
+.notification.p {
+    background-color: #38a8f9;
+    box-shadow: inset 0 -2px 0 #1F8FE0;
+    -webkit-box-shadow: inset 0 -2px 0 #1F8FE0;
+}
+
+.notification.s {
+   background-color: #23CC71;
+   box-shadow: inset 0 -2px 0 #15B358;
+   -webkit-box-shadow: inset 0 -2px 0 #15B358;
+}
+
+.notification.w {
+   background-color: #FFD823;
+   box-shadow: inset 0 -2px 0 #E6BF0A;
+   -webkit-box-shadow: inset 0 -2px 0 #E6BF0A;
+}
+
+.notification.e {
+   background-color: #E74C3C;
+   box-shadow: inset 0 -2px 0 #CE3323;
+   -webkit-box-shadow: inset 0 -2px 0 #CE3323;
+    -webkit-animation: blink 0.5s;
+	-webkit-animation-iteration-count: infinite;
+	animation: blink 0.5s;
+	animation-iteration-count: infinite;
+}
+
+.notification.flat {
+	box-shadow: none;
+	-webkit-box-shadow: none;
 }
 
 @keyframes blink {

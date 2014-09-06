@@ -1,7 +1,7 @@
 ## What is Thirst?
 
 Thirst is a CSS framework. It is made to have simple code and a modern look, almost a flat look. No gloss allowed.
-Check out the Trello board here: https://trello.com/b/y0eEL7Ob/phoenix-ui
+Check out the Trello board here: https://trello.com/b/y0eEL7Ob/thirst-ui
 
 [![wercker status](https://app.wercker.com/status/0f6dbc6d3e6cbb00c5b4dc4445c4ae63/m "wercker status")](https://app.wercker.com/project/bykey/0f6dbc6d3e6cbb00c5b4dc4445c4ae63)
 

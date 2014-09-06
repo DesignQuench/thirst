@@ -12,10 +12,11 @@ You can also join the Gitter chat here: https://gitter.im/ThirstUI/
 
 ##See a bug? Help squash it! Create an issue or pull request.
 
-## Installation: CSS only
+## Installation
 
-Thirst can be installed via the command line. You must have Bower installed.
+Thirst can be installed via the command line.
 
-`bower install thirst`
+Bower: `bower install thirst`
+Clone the repository: `git clone https://github.com/DesignQuench/thirst`
 
 [![Analytics](https://ga-beacon.appspot.com/UA-53505204-2/PhoenixUI/?pixel)](https://github.com/igrigorik/ga-beacon)

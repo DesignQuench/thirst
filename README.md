@@ -6,7 +6,7 @@ Check out the Trello board here: https://trello.com/b/y0eEL7Ob/thirst-ui
 [![wercker status](https://app.wercker.com/status/0f6dbc6d3e6cbb00c5b4dc4445c4ae63/m "wercker status")](https://app.wercker.com/project/bykey/0f6dbc6d3e6cbb00c5b4dc4445c4ae63)
 
 ##Join the Team
-If you'd like to contribute, shoot me an email at jake@thirstui.tk, or join the official beta testers list here: http://eepurl.com/0eiyf
+If you'd like to contribute, shoot me an email at jake@thirstui.tk.
 
 You can also join the Gitter chat here: https://gitter.im/ThirstUI/
 

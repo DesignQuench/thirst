@@ -13,7 +13,6 @@ You can also join the Gitter chat here: https://gitter.im/ThirstUI/
 ##See a bug? Help squash it! Create an issue or pull request.
 
 ## Installation: CSS only
-![Bower Package](http://img.shields.io/badge/bower%20install-thirst-2ecc71.svg?style=flat)
 
 Thirst can be installed via the command line. You must have Bower installed.
 

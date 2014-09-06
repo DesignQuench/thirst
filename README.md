@@ -15,8 +15,8 @@ You can also join the Gitter chat here: https://gitter.im/ThirstUI/
 ## Installation: CSS only
 ![Bower Package](http://img.shields.io/badge/bower%20install-thirst-2ecc71.svg?style=flat)
 
-Copy and paste this into Terminal. You must have Node, npm, and Git.
+Thirst can be installed via the command line. You must have Bower installed.
 
-bower install thirst
+`bower install thirst`
 
 [![Analytics](https://ga-beacon.appspot.com/UA-53505204-2/PhoenixUI/?pixel)](https://github.com/igrigorik/ga-beacon)

@@ -420,7 +420,7 @@ h3 {
 
 input {
 	border-radius: 5px;
-	border: 2px solid #38a8f9;
+	border: 2px solid #BDC3C7;
 	font-family: "Open Sans";
 	height: 25px;
 	color: #34495e;
@@ -428,8 +428,8 @@ input {
 	font-size: 15px;
 	padding-left: 10px;
 	margin-bottom: 10px;
-	-webkit-box-shadow: 0 2px 0 #1F8FE0;
-	box-shadow: 0 2px 0 #1F8FE0;
+	-webkit-box-shadow: 0 2px 0 #A1A6A9;
+	box-shadow: 0 2px 0 #A1A6A9;
 }
 
 input.flat {

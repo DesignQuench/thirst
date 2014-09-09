@@ -178,6 +178,22 @@ h3 {
 	background-color: #bdc3c7;
 }
 
+.btn.p.flat:active {
+	background-color: #38a8f9;
+}
+
+.btn.s.flat:active {
+	background-color: #2ecc71;
+}
+
+.btn.d.flat:active {
+	background-color: #e74c3c;
+}
+
+.btn.w.flat:active {
+	background-color: #FFD823;
+}
+
 .btnalert {
 	margin-right: 0px;
 	margin-top: 5px;

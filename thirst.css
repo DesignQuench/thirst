@@ -594,6 +594,7 @@ input.warning {
 
 input:focus {
 	border: 2px solid #52C2FF;
+	outline-width: 0;
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-ms-transition: all 0.5s ease;

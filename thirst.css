@@ -617,7 +617,7 @@ input.nob:focus {
 }
 
 input.error-nob:focus {
-	border: 2px solid #e74c3c;
+	border: 2px solid #FF6656;
 	-webkit-box-shadow: 0 2px 0 #CE3323;
 	box-shadow: 0 2px 0 #CE3323;
 }

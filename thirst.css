@@ -1,6 +1,6 @@
 /*
 
-Thirst v1.6.2 (http://designquench.tk/thirst.html)
+Thirst v1.6.5 (http://designquench.tk/thirst.html)
 
         .:/oosyyyyyyyyyyyyyy/                                                       -oo/.
    `-+yyyyyyyyyyyyyyyyyyyyyys.                                                     `yyyy`
@@ -203,6 +203,22 @@ h3 {
 .btnalert.sec {
 	box-shadow: none;
 	-webkit-box-shadow: none;
+}
+
+.btn.g.btnalert.pri.flat {
+	background-color: #D7DDE1;
+}
+
+.btn.g.btnalert.pri.flat:active {
+	background-color: #BDC3C7;
+}
+
+.btn.g.btnalert.sec:hover {
+	background-color: #BDC3C7;
+}
+
+.btn.g.btnalert.sec:active {
+	color: #D7DDE1;
 }
 
 .btn.p.btnalert.pri.flat {
@@ -866,6 +882,12 @@ nav.flat {
 	color: #2d2d2d;
 }
 
+.alert.g {
+	background-color: #BDC3C7;
+	-webkit-box-shadow: inset 0 -2px 0 #A1A6A9;
+	box-shadow: inset 0 -2px 0 #A1A6A9;
+}
+
 .alert.p {
 	background-color: #38a8f9;
 	box-shadow: inset 0 -2px 0 #1F8FE0;
@@ -953,6 +975,8 @@ nav.flat {
     to {background-color: #FF6656;}
     from {background-color: #FF6656;}
     to {background-color: #e74c3c;}
+}
+
 .badge {
 	min-width: 10px;
 	border-radius: 5px;

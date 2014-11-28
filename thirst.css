@@ -953,4 +953,36 @@ nav.flat {
     to {background-color: #FF6656;}
     from {background-color: #FF6656;}
     to {background-color: #e74c3c;}
+.badge {
+	min-width: 10px;
+	border-radius: 5px;
+	background-color: #BDC3C7;
+	color: #fff;
+	display: inline-block;
+	padding: 3px 7px;
+}
+
+.g .badge {
+	background-color: white;
+	color: #BDC3C7;
+}
+
+.p .badge {
+	background-color: white;
+	color: #38A8F9;
+}
+
+.s .badge {
+	background-color: white;
+	color: #2ECC71;
+}
+
+.w .badge {
+	background-color: white;
+	color: #FFD823;
+}
+
+.d .badge {
+	background-color: white;
+	color: #E74C3C;
 }

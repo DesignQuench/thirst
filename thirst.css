@@ -282,7 +282,7 @@ h3 {
 	padding-left: 20px;
 }
 
-.popover {
+.tooltip {
 	position: relative;
 	font-family: "Open Sans";
 	color: #ffffff;
@@ -302,13 +302,13 @@ h3 {
 	box-shadow: 0 2px 0 #1F8FE0;
 }
 
-.top.popover {
+.top.tooltip {
 	position: relative;
 	background: #38a8f9;
 	margin-top: 20px;
 }
 
-.top.popover:after, .t-top:before {
+.top.tooltip:after, .t-top:before {
 	bottom: 100%;
 	left: 50%;
 	border: solid transparent;
@@ -318,26 +318,26 @@ h3 {
 	position: absolute;
 }
 
-.top.popover:after {
+.top.tooltip:after {
 	border-color: rgba(56, 168, 249, 0);
 	border-bottom-color: #38a8f9;
 	border-width: 10px;
 	margin-left: -10px;
 }
 
-.top.popover:before {
+.top.tooltip:before {
 	border-color: rgba(0, 0, 0, 0);
 	border-width: 16px;
 	margin-left: -16px;
 }
 
-.bottom.popover {
+.bottom.tooltip {
 	position: relative;
 	background: #38a8f9;
 	margin-bottom: 20px;
 }
 
-.bottom.popover:after, .t-bottom:before {
+.bottom.tooltip:after, .t-bottom:before {
 	top: 100%;
 	left: 50%;
 	border: solid transparent;
@@ -347,26 +347,26 @@ h3 {
 	position: absolute;
 }
 
-.bottom.popover:after {
+.bottom.tooltip:after {
 	border-color: rgba(56, 168, 249, 0);
 	border-top-color: #38a8f9;
 	border-width: 10px;
 	margin-left: -10px;
 }
 
-.bottom.popover:before {
+.bottom.tooltip:before {
 	border-color: rgba(0, 0, 0, 0);
 	border-width: 16px;
 	margin-left: -16px;
 }
 
-.left.popover {
+.left.tooltip {
 	position: relative;
 	background: #38a8f9;
 	margin-left: 20px;
 }
 
-.left.popover:after, .t-left:before {
+.left.tooltip:after, .t-left:before {
 	right: 100%;
 	top: 50%;
 	border: solid transparent;
@@ -376,26 +376,26 @@ h3 {
 	position: absolute;
 }
 
-.left.popover:after {
+.left.tooltip:after {
 	border-color: rgba(56, 168, 249, 0);
 	border-right-color: #38a8f9;
 	border-width: 10px;
 	margin-top: -10px;
 }
 
-.left.popover:before {
+.left.tooltip:before {
 	border-color: rgba(0, 0, 0, 0);
 	border-width: 16px;
 	margin-top: -16px;
 }
 
-.right.popover {
+.right.tooltip {
 	position: relative;
 	background: #38a8f9;
 	margin-right: 20px;
 }
 
-.right.popover:after, .right:before {
+.right.tooltip:after, .right:before {
 	left: 100%;
 	top: 50%;
 	border: solid transparent;
@@ -405,14 +405,14 @@ h3 {
 	position: absolute;
 }
 
-.right.popover:after {
+.right.tooltip:after {
 	border-color: rgba(56, 168, 249, 0);
 	border-left-color: #38a8f9;
 	border-width: 10px;
 	margin-top: -10px;
 }
 
-.right.popover:before {
+.right.tooltip:before {
 	border-color: rgba(0, 0, 0, 0);
 	border-width: 10px;
 	margin-top: -10px;
